@@ -1,0 +1,12 @@
+To hide the main Visual FoxPro window
+In the Init Event of the form, include the following line of code: 
+
+  CopyCode imageCopy Code 
+Application.Visible = .F.
+ 
+
+In the Destroy Event of the form, include the following line of code: 
+
+  CopyCode imageCopy Code 
+Application.Visible = .T.
+ 

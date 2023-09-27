@@ -1,0 +1,11 @@
+01_TA_OT    TALLER : Ordenes de Trabajo
+01_TBL_PRODUTABLAS : Productos  
+01_TBL_PRODUTABLAS : Productos  
+01_TBL_PRODUTABLAS : Tipos de Productos  
+01_TBL_PRODUTABLAS : Familia de Productos  
+01_TBL_PRODUTABLAS : Clientes
+01_TBL_PRODUTABLAS : Distritos
+01_UT_PARAM UTILITARIOS : Parámetros del Sistema
+01_UT_MAN   UTILITARIOS : Mantenimiento de Archivos
+01_UT_ACC   UTILITARIOS : Control de Accesos
+01_UT_USU   UTILITARIOS : Registro de Usuarios

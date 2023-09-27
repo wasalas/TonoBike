@@ -1,0 +1,38 @@
+**************************
+**************************
+*** Clase: lmGraph     ***
+**************************
+*** Autor:             ***
+*** Luis María Guayán  ***
+*** Tucumán, Argentina ***
+*** Versión: 1.0       ***
+*** Fecha: 2006.08.24  ***
+**************************
+**************************
+
+Gráficas con objetos 100% VFP
+
+Solo se deben configurar 5 propiedades y ejecutar el método GenerarGrafica() como se expone en las siguientes líneas de código:
+
+WITH THISFORM.lmGraph
+  .TipoGrafica = 1 && Anillo
+  .TipoLeyenda = 3 && Rótulos
+  .TipoColor = 0 && Aleatorios
+  .TituloGrafica = "Consumos por mes"
+  .Alias = "MiTabla"
+  .GenerarGrafica()
+ENDWITH
+
+Las propiedades de la clase y sus valores son los siguientes:
+
+TipoGrafica: 0=Torta, 1=Anillo, 2=Barras verticales, 3=Barras horizontales, 4=Conos verticales, y 5=Conos horizontales
+TipoLeyenda: 0=Sin leyendas, 1=Valores, 2=Porcentajes, 3=Rótulos, 4=Rótulos y valores, y 5=Porcentajes y rótulos
+TipoColor: 0=Aleatorios y 1=Colores básicos (28 colores definidos)
+TituloGrafica: Cadena con el título superior de la gráfica
+Alias: Alias de la tabla o cursor que contiene los rótulos y valores a graficar
+
+Sobre la tabla o cursor que contiene los datos a graficar, ésta debe estar abierta al momento de ejecutar el método GenerarGrafica(), y debe tener al menos dos campos. El contenido y la estructura de los dos primeros campos debe ser:
+
+1° Campo: Este campo contiene los valores y debe ser Numérico.
+2° Campo: Este campo contiene los rótulos y puede ser de tipo Caracter, Date, DateTime o Numérico.
+

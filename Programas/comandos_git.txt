@@ -1,0 +1,24 @@
+git config --global user.username "walther salas"
+git config --global user.email "wasalas@hotmail.com"
+git config --list
+
+git init
+git status -s
+git add archivo.ext
+git commit -m "Primera Instancia"
+
+git reset --hard abc123	==> indicar el id de la instantanea
+
+…or create a new repository on the command line
+	echo "# inmune" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/wasalas/inmune.git
+	git push -u origin master
+
+…or push an existing repository from the command line
+	git remote add origin https://github.com/wasalas/inmune.git
+	git branch -M main
+	git push -u origin master

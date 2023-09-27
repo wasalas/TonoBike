@@ -1,0 +1,114 @@
+**************************************************************************
+* fecha : 13/02/2022
+* descripcion:
+*	1.- permitir decimales en el peso Cotizacion y Facturas
+*	2.- agragar y llenar un campo unico para el detalle
+* autor : ws
+**************************************************************************
+
+
+DO peso
+DO UNICO
+DO certificados
+DO crea_faccot
+
+MESSAGEBOX("Proceso terminado",64, "Aviso")
+
+*****************************************************************************
+
+PROCEDURE entorno
+	SET PATH TO datos
+	SET EXCLUSIVE ON
+
+	CLOSE DATABASES ALL
+	USE cotdet IN 0
+	USE faccab IN 0
+	USE facdet IN 0
+
+
+ENDPROC
+
+*****************************************************************************
+
+PROCEDURE peso
+	* Poner Peso en decimales
+	ALTER TABLE cotdet ALTER COLUMN peso N(9,2)
+	ALTER TABLE facdet ALTER COLUMN peso N(9,2)
+
+ENDPROC
+
+*****************************************************************************
+
+PROCEDURE UNICO
+	* agregar campo idUnico en detalle de Factura y Cotizacion
+	ON ERROR x=1
+	ALTER TABLE cotdet ADD   COLUMN idUnico c(10)
+	ALTER TABLE facdet ADD   COLUMN idUnico c(10)
+	ON ERROR
+
+	UPDATE cotdet SET idUnico = SYS(2015) WHERE EMPTY(idUnico)
+	UPDATE facdet SET idUnico = SYS(2015) WHERE EMPTY(idUnico)
+
+
+ENDPROC
+
+*****************************************************************************
+
+PROCEDURE certificados
+	* Creat tabla de Certificados y llena con la data existente
+
+	* indicar en la cabecera donde se guarda el CI: 1= Cabecera, 2=Detalle
+	ON ERROR x=1
+	ALTER TABLE faccab ADD COLUMN lugarci N(1)
+	ON ERROR
+
+	* agregar Certificado en el detalle
+	ON ERROR x=1
+	ALTER TABLE facdet ADD COLUMN serci c(2)
+	ALTER TABLE facdet ADD COLUMN numci c(6)
+	ALTER TABLE facdet ADD COLUMN fecci d(8)
+	ON ERROR
+
+	SET STEP ON
+
+	IF FILE("datos\certificadoi.DBF")
+		USE IN( SELECT( "certificadoi"))
+		SELECT 0
+		USE certificadoi
+		ZAP
+	ELSE
+		* crea tabla Certificados
+		CREATE TABLE datos\certificadoi( ;
+			serci	c(2),;
+			numci	c(6),;
+			idcab	c(7))
+
+		INDEX ON serci + numci + idcab TAG tag1
+		INDEX ON serci + numci         TAG tag2
+	ENDIF
+
+	* llena tabla Certificados con la data existente
+	SELECT faccab
+	SCAN
+		IF NOT EMPTY( faccab.serci ) AND NOT EMPTY( faccab.numci )
+			IF NOT SEEK( faccab.serci + faccab.numci + faccab.idcab, "certificadoi", "tag1" )
+				INSERT INTO certificadoi( serci, numci, idcab ) VALUES ( faccab.serci, faccab.numci, faccab.idcab )
+			ENDIF
+		ENDIF
+	ENDSCAN
+
+ENDPROC
+
+*****************************************************************************
+
+PROCEDURE crea_faccot
+	* Agregar tabla de correlativos de FACtura-Cotizacion
+	* relacion 1 a muchos: 1 factura --> varias cotizaciones
+	CREATE TABLE datos\faccot( ;
+		idfac	c(7),;
+		idcot	c(7))
+
+	INDEX ON idfac + idcot TAG tag1
+
+ENDPROC
+

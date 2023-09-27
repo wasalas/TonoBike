@@ -1,0 +1,28 @@
+ON KEY LABEL f12 CANCEL
+CLOSE DATA
+SET TEXTMERGE ON
+SET TEXTMERGE TO campos.txt
+ruta = "datos\"
+*ruta = "E:\Programacion\Sistemas\VFP60\sistinmu\DATA\"
+N = ADIR( tabla, ruta + "*.dbf", "ad" )
+= ASORT( tabla )
+
+FOR i = 1 TO N
+	SELECT (i)
+	USE (ruta + tabla(i,1) )
+	\\<<tabla(i,1)>>
+
+	F = AFIELD(campos)
+	\
+	FOR l = 1 TO F
+		l1 = LEN(campos(l,1))
+		\\<<LOWER(campos(l,1))>>, 
+	ENDFOR
+	\
+	\
+ENDFOR
+SET TEXTMERGE OFF
+SET TEXTMERGE TO
+ON KEY LABEL f12
+CLOSE DATA
+MODI COMM campos.txt

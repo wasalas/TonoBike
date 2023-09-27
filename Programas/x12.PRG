@@ -1,0 +1,1 @@
+UPDATE faccab SET idcot  = ""  WHERE idcot = "0402021"

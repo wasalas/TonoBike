@@ -1,0 +1,23 @@
+* Abre los archivos existentes en el
+* programa opendbf.prg
+
+CLOSE DATA
+SET TEXTMERGE ON
+SET TEXTMERGE TO programas\opendbf.prg
+ruta = "datos\"
+N = ADIR( tabla1, ruta + "*.dbf", "ad" )
+= ASORT( tabla1 )
+FOR i = 1 TO N
+	SELECT (i)
+	USE (ruta + tabla1(i,1) )
+	\* <<i>> .- <<chr(124)>>
+	\select 0
+	\use <<ruta>><<tabla1(i,1)>>
+	\<<iif(!empty(key(1)),"set order to tag tag1","")>>
+	\go top
+	\
+ENDFOR
+SET TEXTMERGE OFF
+SET TEXTMERGE TO
+
+MODIFY COMMAND programas\opendbf.prg

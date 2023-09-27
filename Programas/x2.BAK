@@ -1,0 +1,42 @@
+ln_opt    = 1
+ls_filtro = ""
+ls_where  = ""
+
+DO CASE
+	CASE ln_opt = 1			&&	id
+		ls_where = "ls_filtro $ clientes.idcli"
+
+	CASE ln_opt = 2			&&	ruc
+		ls_where = "ls_filtro $ clientes.ruc"
+
+	CASE ln_opt = 3			&&	razon social
+		ls_where = "ls_filtro $ clientes.nomcli"
+
+	CASE ln_opt = 4			&&	DIRECCION
+		ls_where = "ls_filtro $ clientes.dir"
+
+	OTHERWISE
+
+ENDCASE
+
+
+	ls_where  = "EMPTY( ls_filtro ) OR " + ls_where
+*!*	MESSAGEBOX(ls_where )
+*!*	SET STEP ON
+
+*	WHERE &ls_where ;
+
+SELECT clientes.*, ;
+	IIF(clientes.activo,"A", " ") AS desactivo, ;
+	NVL(area.desarea,  SPACE(10)) AS desarea, ;
+	NVL(zona.deszona,  SPACE(10)) AS deszona, ;
+	NVL(situac.abrsit, SPACE(10)) AS abrsit  ;
+	FROM clientes ;
+	LEFT OUTER JOIN area ON clientes.id_area == area.id_area ;
+	LEFT OUTER JOIN zona ON clientes.id_area + clientes.id_zona == zona.id_area + zona.id_zona ;
+	LEFT OUTER JOIN situac ON clientes.id_sit == situac.id_sit ;
+	WHERE &ls_where ;
+	ORDER BY clientes.nomcli ;
+	INTO CURSOR cur_consulta
+
+brow

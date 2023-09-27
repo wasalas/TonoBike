@@ -1,0 +1,43 @@
+CLEAR ALL
+RELEASE ALL
+RELEASE ALL EXTENDED
+SET EXCLUSIVE ON
+CLOSE DATABASES ALL
+CLEAR
+?CURDIR()
+?
+
+DO abrirDbf WITH "faccab", "z"
+DO abrirDbf WITH "facdet", "z"
+
+DO abrirDbf WITH "cotcab", "z"
+DO abrirDbf WITH "cotdet", "z"
+
+DO abrirDbf WITH "clientes", ""
+DO abrirDbf WITH "productos", ""
+
+DO abrirDbf WITH "usuarios", ""
+
+DO abrirDbf WITH "area", ""
+DO abrirDbf WITH "zona", ""
+DO abrirDbf WITH "situac", ""
+
+WAIT WINDOW "Proceso terminado" at 10,50 TIMEOUT 1
+RETURN
+
+PROCEDURE abrirDbf
+	LPARAMETERS tcTabla, tcZap
+	? "Tabla: " + tcTabla + " - " + tcZap
+
+	ls_ruta = "datos\"
+	ls_archivo = ls_ruta + tcTabla
+
+	SELECT 0
+	USE ( ls_archivo )
+	IF tcZap == "z"
+		ZAP
+	ELSE
+		PACK
+	ENDIF
+
+ENDPROC

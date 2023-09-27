@@ -1,0 +1,2455 @@
+lunes 30 de abril de 2007
+Error in line 1: Unrecognized command verb.
+Trucos - Visual FoxPro 
+Error in line 2: Unrecognized command verb.
+LOS TRUCOS AQUI MOSTRADOS HAN SIDO RECOPILADOS DE VARIAS PAGINAS Y NO SON PROPIEDAD INTELECTUAL DEL AUTOR DE ESTE BLOG, HAN SIDO RECOPILADOS CON EL FIN DE QUE SIRVAN COMO AYUDA A MUCHOS PROGRAMADORES.
+Error in line 3: Unrecognized command verb.
+Mostrar un reporte dentro de un formulario
+Error in line 5: Unrecognized command verb.
+Excelente truco con el cual podrás mostrar tu reporte en un formulario. 
+Error in line 6: Unrecognized command verb.
+Hacer que hable el PC
+Error in line 15: Unrecognized command verb.
+Excelente truco que utiliza el objeto COM SAPI que viene con WinXP el cual "pronuncia" lo que le escribas.
+Error in line 16: Unrecognized command verb.
+Extraer información de los MP3
+Error in line 21: Unrecognized command verb.
+Quieres conocer la información de los archivos MP3 ?? ... autor, titulo, álbum, año ...
+Error in line 22: Unrecognized command verb.
+Suprimir ventana "Imprimiendo" en VFP 8
+Error in line 32: Unrecognized command verb.
+Uno de las nuevas características incorporadas en VFP 8, si deseas puedes impedir que se vea la ventana "Imprimiendo" que se muestra cuando ejecutas un reporte.
+Error in line 33: Unrecognized command verb.
+Nombre del dominio en que se logeo el PC
+Error in line 36: Unrecognized command verb.
+p align="justify">Un pequeño truco para cuando quieras determinar en que dominio se logeo un determinado PC.
+Error in line 37: Unrecognized command verb.
+Determinar si una unidad de red esta disponible
+Error in line 40: Unrecognized command verb.
+Esta es la forma más sencilla para determinar si un equipo de la red esta encendido o si esta disponible una determinada unidad de red. 
+Error in line 41: Unrecognized command verb.
+Si la unidad esta disponible se devolverá -1 y si la unidad no existe o esta apagado el PC entonces devolverá -1
+Error in line 42: Unrecognized command verb.
+Compactar base de datos de Access desde VFP
+Error in line 45: Unrecognized command verb.
+Muy buen truco que permite compactar una base de datos de Access desde VFP.
+Error in line 46: Unrecognized command verb.
+Los parámetros para el método CompacDatabase son los siguientes 
+Error in line 49: Unrecognized command verb.
+Primer parámetro
+Error in line 50: Unrecognized command verb.
+"Data Source=" + "ruta de la base de datos a compactar" 
+Error in line 51: Unrecognized command verb.
+Segundo parámetro
+Error in line 52: Unrecognized command verb.
+"Data Source=" + "ruta de la nueva base de datos compactada" 
+Error in line 53: Unrecognized command verb.
+Insertando registros en Access desde VFP
+Error in line 55: Unrecognized command verb.
+Este es un ejemplo básico pero bueno de como interactuar con una base de datos de Access desde VFP.
+Error in line 56: Unrecognized command verb.
+Imprimir el contenido de un RTF
+Error in line 68: Unrecognized command verb.
+El RTF es un control ActiveX que permite dar características al texto al estilo de Word. En el ejemplo se muestra como imprimir el contenido de este ActiveX.
+Error in line 69: Unrecognized command verb.
+Para imprimir el contenido debes utilizar el método SelPrint del control RTF ...
+Error in line 70: Syntax error.
+Desplegar el Contenido de un Combo
+Error in line 76: Unrecognized command verb.
+En ocasiones queremos conocer el contenido de un ComboBoX sin hacer click en él, solamente a lo que él recibe el enfoque. Esta es la forma más fácil de hacerlo. 
+Error in line 77: Unrecognized command verb.
+KEYBOARD _{F4}_ 
+Error in line 78: Command contains unrecognized phrase/keyword.
+En este caso agregamos este código al evento GOTFOCUS( ) y cuando el Combo reciba el enfoque entonces este se desplegara mostrando la información contenidas en él. 
+Error in line 79: Unrecognized command verb.
+Desplegar un ComboBox al recibir el Enfoque II
+Error in line 81: Unrecognized command verb.
+En realidad muchas veces deseamos hacer esto, pero lo pensamos bastante y no encontramos la forma de hacerlo. Por fin aquí esta su implementación.
+Error in line 82: Unrecognized command verb.
+Crea un formulario y agrégale un Combo y un Botón. Al hacer click en el botón debe desplegarse automáticamente el Combo.
+Error in line 83: Syntax error.
+Programa lo siguiente en el evento Gotfocus del Combo
+Error in line 84: Unrecognized command verb.
+En el evento Click del botón que creaste llama al evento Setfocus() del combo, Así:
+Error in line 88: Unrecognized command verb.
+Quitar acentos de una cadenas de caracteres 
+Error in line 91: Unrecognized command verb.
+Algunas veces los acentos son algo molestos y nos causan inconvenientes, sobre todo al momento de realizar búsquedas dentro tablas
+Error in line 92: Unrecognized command verb.
+Agregar imagen al _Screen
+Error in line 96: Unrecognized command verb.
+En ocasiones queremos que en el fondo de nuestras aplicaciones, es decir en el _screen se vea el logo de nuestro programa o de la empresa. Este es un buen truco para personalizar las aplicaciones.
+Error in line 97: Unrecognized command verb.
+Quitar botones de la barra del Preview
+Error in line 105: Unrecognized command verb.
+Truco indispensable si deseas quitar algunos botones de la barra del preview e impedir así que se imprima desde ahí o se seleccione alguna opción.
+Error in line 106: Unrecognized command verb.
+Bueno para realizar este truco te recomiendo cierres todo. Ahora ve al menú VER, luego a ToolBars (Barra de herramientas), luego selecciona la barra Print Preview (VISTA PRELIMINAR) 
+Error in line 107: Unrecognized command verb.
+y ahora haz click en Customize (PERSONALIZAR). 
+Error in line 108: Unrecognized command verb.
+Ahora la barra te aparecerá deshabilitada detrás de ventana de personalización, ve a la barra y con click sostenido quita todos los botones que quieras y listo la configuración se guardara en Foxuser.dbf 
+Error in line 109: Unrecognized command verb.
+Si deseas que el usuario final no pueda acceder 
+Error in line 110: Unrecognized command verb.
+Solucionar problemas de Memoria con WinXP
+Error in line 112: Unrecognized command verb.
+Evitar el error de Memoria en XP al ejecutar comandos de D.O.S
+Error in line 113: Unrecognized command verb.
+Edita el archivo SYSTEM.INI, en la sección 386ENH agrega la siguiente linea:
+Error in line 114: Unrecognized command verb.
+Invocar cuadros de dialogo de Windows
+Error in line 117: Unrecognized command verb.
+Existe una forma sencilla de invocar cuadros de dialogo de Windows, tales como: Guardar, Abrir, Fuentes, Color, Impresoras, Ayuda.
+Error in line 118: Unrecognized command verb.
+Unidad y serial lógico de las unidades de disco
+Error in line 126: Unrecognized command verb.
+De una unidad de disco es posible obtener 2 seriales: el de fabrica y el que le asigna el sistema operativo; en este ejemplo se devuelve el serial del sistema operativo.
+Error in line 127: Unrecognized command verb.
+Cancelar todos los trabajos en impresión
+Error in line 136: Unrecognized command verb.
+Aquí tienes un ejemplo de como cancelar los trabajos que se esten imprimiendo utilizando WMI.
+Error in line 137: Unrecognized command verb.
+Información del tiempo local
+Error in line 146: Unrecognized command verb.
+Utilizando WMI para conocer el día, mes, año, día del mes, número de semana en el mes, minutos, segundos.... etc.
+Error in line 147: Unrecognized command verb.
+Mandar un reporte a una impresora especifica
+Error in line 163: Unrecognized command verb.
+IMPRIMIR EN UN PUERTO USB
+Error in line 177: Unrecognized command verb.
+Printing to USB Printers from FoxPro 2.6
+Error in line 178: Unrecognized command verb.
+There are several solutions, depending on your configuration.
+Error in line 179: Unrecognized command verb.
+1. If you are using a shared printer on another computer, you shouldn't have a problem. Share it from the other computer, and point to it from the FoxPro 2.6 computer.
+Error in line 180: Syntax error.
+2. To print to a USB printer on the FoxPro 2.6 computer. On Windows XP and 2000, you can share the printer, then use a NET USE command to redirect LPT1 to the shared printer. This is like the Novell capture sequences.
+Error in line 181: Syntax error.
+Install the printer and share it. You may need to set permissions to allow Authenticated Users to use the printer. 
+Error in line 182: Unrecognized command verb.
+Add NET USE LPT1: \\CRAIG\USBPRINTER to the logon script for the user's profile. 
+Error in line 183: Syntax error.
+For help on logon scripts, look up "To assign a logon script to a profile" in XP Help. 
+Error in line 184: Syntax error.
+3. To print to a USB printer on the FoxPro 2.6 computer. On Windows XP, you can use printer pooling. 
+Error in line 185: Syntax error.
+Install the USB printer on the computer. 
+Error in line 186: Unrecognized command verb.
+Install a local printer on LPT1 (works best, or LPT2). Don't have XP search, but pick the printer by brand. Let it be similar or common printer you recognize. 
+Error in line 187: Unrecognized command verb.
+Now select printer properties for the new LPT1 (virtual) printer. On the ports tab, put checks for the LPT1 (for the virtual printer) and the USB for the real printer. Now choose Enable printer pooling. The DOS drivers will print to LPT1. Since XP pools the ports, the output will then be directed to the USB printer. 
+Error in line 188: Unrecognized command verb.
+Good luck!
+Error in line 189: Unrecognized command verb.
+If this was helpful, send me ( craigr@computer-u.com ) an email. 
+Error in line 190: Command contains unrecognized phrase/keyword.
+Joost Dekker of the Netherlands says "It works."
+Error in line 191: Unrecognized command verb.
+Comprimir con WinZIP
+Error in line 192: Unrecognized command verb.
+Puedes utilizar WinZIP para comprimir archivos desde VFP. 
+Error in line 193: Unrecognized command verb.
+Leer archivo INI
+Error in line 199: Unrecognized command verb.
+Una alternativa muy frecuente para almacenar algunos datos de tu aplicación son los archivo INIs ... aquí tienes la forma de leer las entradas de estos archivos. 
+Error in line 200: Unrecognized command verb.
+Para el ejemplo crea un archivo INI llamado "archivo.ini" en c: y agrégale los siguientes datos:
+Error in line 201: Syntax error.
+[RUTADB]
+Error in line 202: Unrecognized command verb.
+Directorio =C:MiProgramaDB
+Error in line 203: Syntax error.
+Ahora si desde VFP quisiéramos conocer el valor almacenado en la entrada Directorio deberíamos hacerlo así:
+Error in line 204: Unrecognized command verb.
+Error in line 206: An IF | ELSE | ENDIF statement is missing.
+Desplazamiento con "ENTER" en grid
+Error in line 220: Unrecognized command verb.
+Por defecto cuando presionamos "Enter" en un grid este se desplaza a la siguiente columna, pero podemos hacer que se desplace al siguiente registro. 
+Error in line 221: Unrecognized command verb.
+Lo que debes hacer es ir al evento KeyPress del TextBox vinculado a la columna y escribir el siguiente código
+Error in line 222: Unrecognized command verb.
+If nKeyCode = 13
+Error in line 223: Statement is not in a procedure.
+Nodefault
+Error in line 224: Statement is not in a procedure.
+Keyboard "{DNARROW}"
+Error in line 225: Statement is not in a procedure.
+EndIf
+Error in line 226: Statement is not in a procedure.
+Devolver número con 2 decimales sin aproximarlo
+Error in line 228: Unrecognized command verb.
+En muchas ocasiones tenemos un número con más de 2 decimales y queremos que solo nos devuelva 2, pero al hacerlo el número es aproximado, lo cual queremos evitar. 
+Error in line 229: Unrecognized command verb.
+nNum1 = 9874.6935
+Error in line 230: Statement is not in a procedure.
+nNum2 = 1235.05685
+Error in line 231: Statement is not in a procedure.
+? Round(Floor(nNum1 * 100) / 100, 2)
+Error in line 232: Statement is not in a procedure.
+? Round(Floor(nNum2 * 100) / 100, 2)
+Error in line 233: Statement is not in a procedure.
+Abrir un documento de Word e impedir que lo editen
+Error in line 235: Unrecognized command verb.
+En este ejemplo se abre un documento de Word a través de automatización y se impide que el usuario pueda realizar cambios sobre él. Gracias a Gorka. 
+Error in line 236: Unrecognized command verb.
+Local loWord As Object
+Error in line 237: Statement is not in a procedure.
+loWord = Createobject("word.application")
+Error in line 238: Statement is not in a procedure.
+loWord.Documents.Open(Getfile(),,1)
+Error in line 239: Statement is not in a procedure.
+loWord.ActiveDocument.Protect(1)
+Error in line 240: Statement is not in a procedure.
+loWord.ActiveDocument.PrintPreview
+Error in line 241: Statement is not in a procedure.
+loWord.Visible= .T.
+Error in line 242: Statement is not in a procedure.
+loWord.ActiveDocument.Close(.F.)
+Error in line 243: Statement is not in a procedure.
+loWord.Quit
+Error in line 244: Statement is not in a procedure.
+Release loWord
+Error in line 245: Statement is not in a procedure.
+Mostrar un reporte dentro de un formulario
+Error in line 247: Unrecognized command verb.
+Excelente truco con el cual podrás mostrar tu reporte en un formulario. 
+Error in line 248: Unrecognized command verb.
+oRep =Createobject("Form")
+Error in line 249: Statement is not in a procedure.
+With oRep
+Error in line 250: Statement is not in a procedure.
+.Caption= "Titulo del Reporte"
+Error in line 251: Statement is not in a procedure.
+.WindowState= 2
+Error in line 252: Statement is not in a procedure.
+.Show()
+Error in line 253: Statement is not in a procedure.
+Endwith
+Error in line 254: Statement is not in a procedure.
+Report Form MiReporte.frx Preview Window (oRep.Name)
+Error in line 255: Statement is not in a procedure.
+Deshabilitar algunas combinaciones de teclas
+Error in line 257: Unrecognized command verb.
+Interesante truco con el cual podrás deshabilitar algunas combinaciones de teclas y hasta funciones de VFP. 
+Error in line 258: Unrecognized command verb.
+El asterisco ( * ) permite inhabilitar algunas cositas de VFP.... en este caso, no funcionaran las combinaciones de teclas para copiar (CTRL+C), Pegar (CTRL+V).
+Error in line 259: Unrecognized command verb.
+ON KEY LABEL CTRL+V *
+Error in line 260: Statement is not in a procedure.
+ON KEY LABEL CTRL+C *
+Error in line 261: Statement is not in a procedure.
+Cuando el usuario presione dichas combinaciones de teclas no harán nada. y de igual forma puedes hacer con todas las teclas.
+Error in line 262: Unrecognized command verb.
+Quieres que tu programa nunca mande un error... mejor dicho ¿quieres esconder tus errores? ... Interesante no?
+Error in line 263: Unrecognized command verb.
+On Error *
+Error in line 264: Statement is not in a procedure.
+Y si deseas evitar que el usuario salga del programa ..
+Error in line 265: Unrecognized command verb.
+On Shutdown *
+Error in line 266: Statement is not in a procedure.
+Prueba con otras opciones y comprobaras lo útil que es el asterisco ( * )
+Error in line 267: Unrecognized command verb.
+Anclar barra del preview de los reportes
+Error in line 269: Unrecognized command verb.
+Si deseas que cuando hacer un report form la barra del preview se ancle puedes utilizar este código. 
+Error in line 270: Unrecognized command verb.
+Coloca el siguiente código en el Init del Dataenvironment
+Error in line 271: Unrecognized command verb.
+If wexist("Print Preview") 
+Error in line 273: Statement is not in a procedure.
+Move Window _Print Preview_ to 10,10 
+Error in line 274: Syntax error.
+Mouse Dblclick at 11,11 
+Error in line 275: Statement is not in a procedure.
+Endif 
+Error in line 276: Statement is not in a procedure.
+Anclar la Barra del Preview de Reportes
+Error in line 278: Unrecognized command verb.
+Cuando ejecutamos un reporte y este muestra la barra de Preview, muchas veces deseamos colocarla anclada al resto de barras.
+Error in line 279: Unrecognized command verb.
+Primero ejecutamos el reporte con la cláusula tradicional:
+Error in line 280: Unrecognized command verb.
+Report Form nombrereporte.frx preview nowait
+Error in line 281: Statement is not in a procedure.
+If wexist("Print Preview") 
+Error in line 282: Statement is not in a procedure.
+move window _Print Preview_ to 10,10 
+Error in line 283: Syntax error.
+mouse dblclick at 11,11 
+Error in line 284: Statement is not in a procedure.
+Endif 
+Error in line 285: Statement is not in a procedure.
+Preview de los reportes a un zoom especifico
+Error in line 287: Unrecognized command verb.
+Nuestro clientes piden muchas cosas (por no decir otra cosa); a unos les gusta el preview al 100% a otros les gusta verlo al 50% ..... aquí esta la forma de hacerlo.
+Error in line 288: Unrecognized command verb.
+Agrega el siguiente código en el método BeforeOPenTable del dataenvironment (entorno de datos) del reporte
+Error in line 289: Unrecognized command verb.
+ZOOM WINDOW "Report Designer" MAX
+Error in line 291: Statement is not in a procedure.
+KEYBOARD "{F3}" 
+Error in line 292: Statement is not in a procedure.
+Lo que debes hacer es enviarle pulsaciones de la tabla F3 con la función Keyboard; cada F3 que envíes hará que el zoom del preview sea más pequeño 
+Error in line 296: Unrecognized command verb.
+Comprimir y descomprimir con WinXP
+Error in line 298: Unrecognized command verb.
+Puede incorporar dentro de sus aplicaciones rutinas para comprimir y descomprimir archivos a través de WinXP o WinME. 
+Error in line 299: Unrecognized command verb.
+cNuevoZip = "C:MiArchivo.Zip"
+Error in line 303: Statement is not in a procedure.
+cOrigen = "c:Directorio"
+Error in line 304: Statement is not in a procedure.
+Strtofile(Chr(0x50)+Chr(0x4B)+Chr(0x05)+Chr(0x06)+Replicate(Chr(0),18),cNuevoZip) 
+Error in line 305: Statement is not in a procedure.
+oShell = Createobject("Shell.Application")
+Error in line 306: Statement is not in a procedure.
+For Each oArchi In oShell.NameSpace(cOrigen).Items
+Error in line 307: Statement is not in a procedure.
+oShell.NameSpace(cNuevoZip).CopyHere(oArchi)
+Error in line 308: Statement is not in a procedure.
+Endfor
+Error in line 309: Statement is not in a procedure.
+cMiZip = "C:MiArchivo.Zip"
+Error in line 314: Statement is not in a procedure.
+cDirDesti = "c:Directorio"
+Error in line 315: Statement is not in a procedure.
+oShell = Createobject("Shell.Application")
+Error in line 316: Statement is not in a procedure.
+For Each oArchi In oShell.NameSpace(cMiZip).Items
+Error in line 317: Statement is not in a procedure.
+oShell.NameSpace(cDirDesti).CopyHere(oArchi)
+Error in line 318: Statement is not in a procedure.
+EndFor
+Error in line 319: Statement is not in a procedure.
+Devolver número con 2 decimales sin aproximarlo
+Error in line 321: Unrecognized command verb.
+En muchas ocasiones tenemos un número con más de 2 decimales y queremos que solo nos devuelva 2, pero al hacerlo el número es aproximado, lo cual queremos evitar. 
+Error in line 322: Unrecognized command verb.
+nNum1 = 9874.6935
+Error in line 323: Statement is not in a procedure.
+nNum2 = 1235.05685
+Error in line 324: Statement is not in a procedure.
+? Round(Floor(nNum1 * 100) / 100, 2)
+Error in line 325: Statement is not in a procedure.
+? Round(Floor(nNum2 * 100) / 100, 2)
+Error in line 326: Statement is not in a procedure.
+Cerrar el Botón inicio de Windows
+Error in line 328: Unrecognized command verb.
+En ocasiones no queremos que el usuario tenga acceso al botón inicio de Windows; lo que hacemos entonces es cerrarlo. 
+Error in line 329: Unrecognized command verb.
+Declare Long FindWindow In "user32"  String lpClassName, String lpWindowName
+Error in line 331: Statement is not in a procedure.
+Declare Long SendMessage In "user32"  Long HWnd,Long wMsg, Long wParam, Long Lparam
+Error in line 334: Statement is not in a procedure.
+Declare Long FindWindowEx In "user32"  Long hWnd1, Long hWnd2, String lpsz1, String lpsz2
+Error in line 337: Statement is not in a procedure.
+SendMessage(FindWindowEx(FindWindow("Shell_TrayWnd",""), 0x0, "Button", .Null.), 0x10, 0, 0)
+Error in line 340: Statement is not in a procedure.
+Calcular el número del día en el año
+Error in line 342: Unrecognized command verb.
+Función que te devuelve cuantos días han pasando en el año hasta una fecha determinada. 
+Error in line 343: Unrecognized command verb.
+?DiaDelAño(Date())
+Error in line 344: Statement is not in a procedure.
+?DiaDelAño(Date()-10)
+Error in line 345: Statement is not in a procedure.
+?DiaDelAño(Date()-60)
+Error in line 346: Statement is not in a procedure.
+Determinar si un año es bisiesto
+Error in line 352: Unrecognized command verb.
+No hace falta explicar.... je, je, je... 
+Error in line 353: Unrecognized command verb.
+Existen diversas formas de terminarlo ... la primera:
+Error in line 354: Unrecognized command verb.
+nAño = 2004
+Error in line 355: Statement is not in a procedure.
+? !Empty(Date(nAño, 02, 29))
+Error in line 356: Statement is not in a procedure.
+nAño = 2005
+Error in line 357: Statement is not in a procedure.
+? !Empty(Date(nAño, 02, 29))
+Error in line 358: Statement is not in a procedure.
+Otra forma utilizando MOD
+Error in line 360: Unrecognized command verb.
+?Mod(2004, 4)
+Error in line 361: Statement is not in a procedure.
+?Mod(2005, 4)
+Error in line 362: Statement is not in a procedure.
+Grid y DynamicBackColor
+Error in line 364: Unrecognized command verb.
+Un excelente ejemplo de como podemos utilizar DynamicBackColor para establecer un color a la celda dependiendo de una condición. 
+Error in line 365: Unrecognized command verb.
+Localo
+Error in line 366: Unrecognized command verb.
+o = Createobject("myform")
+Error in line 367: Statement is not in a procedure.
+o.Show(1)
+Error in line 368: Statement is not in a procedure.
+Ejecutar comandos de MS-DOS sin que se muestre la ventana
+Error in line 422: Unrecognized command verb.
+Excelente ... Podrás ejecutar tus comando de MS-DOS sin que se muestre la ventana negra del DOS. 
+Error in line 423: Unrecognized command verb.
+En la variable cComando puedes colocar cualquier instrucción válida de MS-DOS que luego será ejecutada; Si deseas que la ventana sea visible solo cambia el último parámetro de a función ShellExecute y colócalo en 1
+Error in line 424: Unrecognized command verb.
+Declare Integer ShellExecute In shell32.Dll Integer hndWin, String cAction, String cFile, String cParams, String cDir, Integer nShow
+Error in line 427: Statement is not in a procedure.
+cComando = "Dir c:*.*"
+Error in line 429: Statement is not in a procedure.
+cArchivo = GetEnv("TEMP") + "" + Sys(2015) + ".bat"
+Error in line 430: Statement is not in a procedure.
+=StrToFile(cComando, cArchivo)
+Error in line 432: Statement is not in a procedure.
+=ShellExecute(0,"Open",cArchivo,"","",0)
+Error in line 433: Statement is not in a procedure.
+Determinar el número de líneas de un EditBox
+Error in line 436: Unrecognized command verb.
+MUY BUENO ... Con este truco podrás determinar le número de líneas que ocupa una determinada cadena de texto en un EditBox. 
+Error in line 437: Unrecognized command verb.
+nActSetMemo = Set("MemoWidth")
+Error in line 438: Statement is not in a procedure.
+With Thisform.Edit1 
+Error in line 440: Statement is not in a procedure.
+Set Memowidth To Floor(.Width/(Fontmetric(6,.FontName,.FontSize)+1))
+Error in line 441: Statement is not in a procedure.
+nLines = Memlines(.Value)
+Error in line 442: Statement is not in a procedure.
+EndWith
+Error in line 443: Statement is not in a procedure.
+? "Número de líneas... " + Transform(nLines)
+Error in line 445: Statement is not in a procedure.
+Set Memowidth To nActSetMemo
+Error in line 446: Statement is not in a procedure.
+Convertir segundos a días - horas - minutos - segundos
+Error in line 448: Unrecognized command verb.
+Código bastante útil .... podemos convertir un número determinado de segundos en días, horas, minutos... 
+Error in line 449: Unrecognized command verb.
+nSeg = 276786
+Error in line 450: Statement is not in a procedure.
+? Padl(Int( nSeg / 86400),3) + " Días " + Padl(Int((nSeg % 86400)/3600),2,"0") + " Hrs " + Padl(Int((nSeg % 3600)/60), 2, "0") + " Min " + Padl(Int(nSeg % 60),2,"0") + " Seg"
+Error in line 454: Statement is not in a procedure.
+Wait window centrado en la pantalla
+Error in line 456: Command contains unrecognized phrase/keyword.
+Truquito sencillo pero bueno.
+Error in line 457: Unrecognized command verb.
+lcMess = "Mesaje centrado en la pantalla" 
+Error in line 458: Statement is not in a procedure.
+Wait lcMess Window At Srows()/2,(Scols()/2 - (Len(lcMess)/2))Nowait
+Error in line 459: Statement is not in a procedure.
+Dejar fija primera columna de un grid
+Error in line 461: Unrecognized command verb.
+Este es un truco bastante solicitado .... Con VFP 8 o superior ya es posible hacerlo más fácilmente. Aquí tienes 2 formas de hacerlo.
+Error in line 462: Unrecognized command verb.
+En el AfteRowColchange del Grid digita lo siguiente:
+Error in line 463: Unrecognized command verb.
+Lparameters nColIndex
+Error in line 464: Statement is not in a procedure.
+Thisform. LockScreen = .T. 
+Error in line 465: Statement is not in a procedure.
+This.Columns(1).ColumnOrder =This. LeftColumn 
+Error in line 466: Statement is not in a procedure.
+Thisform.LockScreen = .T.
+Error in line 467: Statement is not in a procedure.
+Lparameters nDirection
+Error in line 469: Statement is not in a procedure.
+Thisform. LockScreen= .T. 
+Error in line 470: Statement is not in a procedure.
+If nDirection > 3 
+Error in line 471: Statement is not in a procedure.
+This .Columns(1). ColumnOrder = This.LeftColumn 
+Error in line 472: Statement is not in a procedure.
+Endif 
+Error in line 473: Statement is not in a procedure.
+Thisform.LockScreen= .F.
+Error in line 474: Statement is not in a procedure.
+OTRA FORMA
+Error in line 475: Unrecognized command verb.
+nPos =This. ActiveColumn-This.RelativeColumn
+Error in line 477: Statement is not in a procedure.
+If nPos>0 
+Error in line 478: Statement is not in a procedure.
+This.COlumn1.ColumnOrder=nPos+1 
+Error in line 479: Statement is not in a procedure.
+Else 
+Error in line 480: Statement is not in a procedure.
+This.COlumn1.ColumnOrder=1 
+Error in line 481: Statement is not in a procedure.
+Endif
+Error in line 482: Statement is not in a procedure.
+Diferencia entre dos DateTime - Horas - Minutos - Segundos
+Error in line 484: Unrecognized command verb.
+Este truco es bastante útil ... Calcular el número de horas, minutos y segundos entre dos valor DateTime.
+Error in line 485: Unrecognized command verb.
+?HMSDif(Datetime(), Dtot(Date()-10))
+Error in line 486: Statement is not in a procedure.
+Sistema operativo que utilizas
+Error in line 513: Unrecognized command verb.
+Existen diversas formas de conocer que sistema operativo utilizas; está es una forma sencilla pero bastante buena.
+Error in line 514: Unrecognized command verb.
+cOsx = Os(1)
+Error in line 515: Statement is not in a procedure.
+cSistema = ""
+Error in line 516: Statement is not in a procedure.
+Do Case 
+Error in line 517: Statement is not in a procedure.
+Case "6.00" $ cOsx 
+Error in line 518: Statement is not in a procedure.
+cSistema = "LongHorn" 
+Error in line 519: Statement is not in a procedure.
+Case "5.02" $ cOsx 
+Error in line 520: Statement is not in a procedure.
+cSistema = "2003" 
+Error in line 521: Statement is not in a procedure.
+Case "5.01" $ cOsx 
+Error in line 522: Statement is not in a procedure.
+cSistema = "XP" 
+Error in line 523: Statement is not in a procedure.
+Case "5.0" $ cOsx 
+Error in line 524: Statement is not in a procedure.
+cSistema = "2000" 
+Error in line 525: Statement is not in a procedure.
+Case "NT" $ cOsx 
+Error in line 526: Statement is not in a procedure.
+cSistema = "NT" 
+Error in line 527: Statement is not in a procedure.
+Case "4.1" $ cOsx 
+Error in line 528: Statement is not in a procedure.
+cSistema = "98" 
+Error in line 529: Statement is not in a procedure.
+Case"4.9" $ cOsx 
+Error in line 530: Statement is not in a procedure.
+cSistema = "ME" 
+Error in line 531: Statement is not in a procedure.
+Case "4.0" $ cOsx Or "3.9" $ cOsx 
+Error in line 532: Statement is not in a procedure.
+cSistema = "95" 
+Error in line 533: Statement is not in a procedure.
+Case "3." $ cOsx 
+Error in line 534: Statement is not in a procedure.
+cSistema = "3.1" 
+Error in line 535: Statement is not in a procedure.
+Endcase
+Error in line 536: Statement is not in a procedure.
+? "Windows " + cSistema
+Error in line 537: Statement is not in a procedure.
+Obtener la parte fraccionaria de un numero
+Error in line 539: Unrecognized command verb.
+Un truco EXCELENTEEEE .... de como determinar la parte decimal o fraccionaria de un número.
+Error in line 540: Unrecognized command verb.
+? ABS(78.53) % 1
+Error in line 541: Statement is not in a procedure.
+? ABS(329.12) % 1
+Error in line 542: Statement is not in a procedure.
+Seleccionar el texto de un control
+Error in line 544: Unrecognized command verb.
+Una forma sencilla de seleccionar el texto de un control ... 
+Error in line 545: Unrecognized command verb.
+En el evento GotFocus() del control colocas lo siguiente:
+Error in line 546: Unrecognized command verb.
+Keyboard '{END}'
+Error in line 547: Statement is not in a procedure.
+Keyboard '{SHIFT+HOME}'
+Error in line 548: Statement is not in a procedure.
+Apagar rápidamente con WinXP
+Error in line 550: Unrecognized command verb.
+Puedes hacer que tu PC se apague con doble clic, para ello deberás crear un icono que te permita hacer esta función, para realizar este truco sigue estos pasos:
+Error in line 551: Unrecognized command verb.
+Haz clic con el ratón derecho en una zona libre del Escritorio y luego selecciona Nuevo y Acceso directo.
+Error in line 553: Unrecognized command verb.
+En la ventana del acceso directo debes escribir shutdown -s -t 00 y pulsa el botón Siguiente, después le pones el nombre que quieras al acceso directo y pinchas el botón Finalizar.
+Error in line 554: Unrecognized command verb.
+Si quieres dejar algo de tiempo para cerrar las aplicaciones debes poner esto shutdown.exe -s -t 12 de esta forma dejarás un margen prudencial de 12 segundos para apagar el PC.
+Error in line 556: Unrecognized command verb.
+Calcular tiempo que tarda realizar una Operación
+Error in line 558: Unrecognized command verb.
+Un simple pero muy interesante ejemplo de como y donde implementar estas útiles funciones. 
+Error in line 559: Unrecognized command verb.
+lnInicio = SECONDS() 
+Error in line 560: Statement is not in a procedure.
+for i = 1 to 10000 
+Error in line 562: Statement is not in a procedure.
+endfor
+Error in line 564: Statement is not in a procedure.
+? SECONDS() - lnInicio 
+Error in line 566: Statement is not in a procedure.
+Texto parpadeante
+Error in line 568: Unrecognized command verb.
+Para realizar el efecto debemos crear un formulario, una etiqueta y un control timer; la propiedad Interval de este se la establecemos a 700 (milisegundos). 
+Error in line 569: Syntax error.
+Cambiamos la propiedad caption de la etiqueta a al texto que deseamos, luego ejecutamos.
+Error in line 570: Unrecognized command verb.
+En el evento Timer del Control Timer escribimos: 
+Error in line 572: Unrecognized command verb.
+THISFORM.Label1.Visible =! THISFORM.Label1.Visible 
+Error in line 573: Statement is not in a procedure.
+Impedir que cambien la configuración del Preview de Reportes
+Error in line 575: Unrecognized command verb.
+Si no quieres que te modifiquen la configuración del Preview de reportes desde abrir la tabla de recursos de VFP (Foxuser.dbf) y cambiar a verdadero (.t.) el campo solo lectura (ReadOnly) de la barra.
+Error in line 576: Unrecognized command verb.
+Use SYS(2005) Again
+Error in line 577: Statement is not in a procedure.
+Locate For Id=_TTOOLBAR_ and name=_Print Preview_
+Error in line 578: Command contains unrecognized phrase/keyword.
+Replace readonly with .T.
+Error in line 579: Statement is not in a procedure.
+Use 
+Error in line 580: Statement is not in a procedure.
+Determinar la Impresora predeterminada
+Error in line 582: Unrecognized command verb.
+En VFP la impresión causa algunos malestares y debemos conocer cual es la impresora predeterminada tanto en Windows como en VFP.
+Error in line 583: Unrecognized command verb.
+? SET("PRINTER", 2) 
+Error in line 584: Statement is not in a procedure.
+? SET("PRINTER", 3) 
+Error in line 586: Statement is not in a procedure.
+Imprimir paginas determinadas de un Reporte
+Error in line 588: Unrecognized command verb.
+Cuando tenemos un reporte y queremos imprimir una pagina determinada o desde una pagina a otra podemos utilizar el argumento RANGE. Después de él indicamos la pagina de inicio y final del reporte a imprimir. 
+Error in line 589: Unrecognized command verb.
+Supongamos que tenemos un reporte de 20 paginas, yo puedo mandar a imprimir de la pagina 10 a la 15 de la siguiente manera
+Error in line 590: Unrecognized command verb.
+REPORT FORM nombreinforme RANGE 10,15 
+Error in line 591: Statement is not in a procedure.
+Crystal Report y VFP
+Error in line 593: Unrecognized command verb.
+Uno de los grandes problemas de VFP son los reportes; pero podemos realizar los reportes en Cristal Report 
+Error in line 594: Unrecognized command verb.
+y luego llamarlos desde VFP. No quiero decir con esto que sea mejor, más fácil o más cómodo; simplemente es otra forma de hacerlo y tiene muchas ventajas.
+Error in line 595: Unrecognized command verb.
+En los ejemplos que demuestro estoy utilizando la versión 8 del Cristal Report de Seagate pero considero que se debe comportar igual con las demás versiones.
+Error in line 596: Unrecognized command verb.
+Primero veamos como puedo exportar un reporte a extensión .DOC (Word)
+Error in line 597: Unrecognized command verb.
+oCristalReport = createobject("crystal.crpe.application")
+Error in line 598: Statement is not in a procedure.
+oRepx = oCristalReport.OpenReport("C: eporteventas.RPT")
+Error in line 599: Statement is not in a procedure.
+oRepx.ExportOptions.FormatType = 14 
+Error in line 600: Statement is not in a procedure.
+oRepx.ExportOptions.DiskFileName = "c: eporteventasdelmes.doc"
+Error in line 601: Statement is not in a procedure.
+oRepx.ExportOptions.DestinationType = 1 
+Error in line 602: Statement is not in a procedure.
+oRepx.Export(.F.) 
+Error in line 603: Statement is not in a procedure.
+release oRepx
+Error in line 604: Statement is not in a procedure.
+release oCristalReport 
+Error in line 605: Statement is not in a procedure.
+Los otros formatos en que podemos guardar los reportes son:
+Error in line 606: Unrecognized command verb.
+Extensión FormatType
+Error in line 607: Unrecognized command verb.
+RTF 4
+Error in line 608: Unrecognized command verb.
+EXCEL 7 27 o 28
+Error in line 609: Unrecognized command verb.
+EXCEL 8 29 o 30 
+Error in line 610: Unrecognized command verb.
+Para ver en vista previa un reporte: 
+Error in line 612: Syntax error.
+oCristalreport = createobject("crystal.crpe.application")
+Error in line 613: Statement is not in a procedure.
+oRep = oCristalreport.OpenReport("C: eporteventas.RPT")
+Error in line 614: Statement is not in a procedure.
+oRep.Preview 
+Error in line 615: Statement is not in a procedure.
+Para mandarlo a imprimir 
+Error in line 617: Syntax error.
+oCristalreport = createobject("crystal.crpe.application")
+Error in line 618: Statement is not in a procedure.
+oRep = oCristalreport.OpenReport("C: eporteventas.RPT")
+Error in line 619: Statement is not in a procedure.
+oRep.Printout(.F.) 
+Error in line 620: Statement is not in a procedure.
+Crystal Report y VFP
+Error in line 622: Unrecognized command verb.
+Uno de los grandes problemas de VFP son los reportes; pero podemos realizar los reportes en Cristal Report y luego llamarlos desde VFP. 
+Error in line 623: Unrecognized command verb.
+No quiero decir con esto que sea mejor, más fácil o más cómodo; simplemente es otra forma de hacerlo y tiene muchas ventajas.
+Error in line 624: Unrecognized command verb.
+En los ejemplos que demuestro estoy utilizando la versión 8 del Cristal Report de Seagate pero considero que se debe comportar igual con las demás versiones.
+Error in line 625: Unrecognized command verb.
+Primero veamos como puedo exportar un reporte a extensión .DOC (Word)
+Error in line 626: Unrecognized command verb.
+oCristalReport = createobject("crystal.crpe.application")
+Error in line 627: Statement is not in a procedure.
+oRepx = oCristalReport.OpenReport("C: eporteventas.RPT")
+Error in line 628: Statement is not in a procedure.
+oRepx.ExportOptions.FormatType = 14 
+Error in line 629: Statement is not in a procedure.
+oRepx.ExportOptions.DiskFileName = "c: eporteventasdelmes.doc"
+Error in line 630: Statement is not in a procedure.
+oRepx.ExportOptions.DestinationType = 1 
+Error in line 631: Statement is not in a procedure.
+oRepx.Export(.F.) 
+Error in line 632: Statement is not in a procedure.
+release oRepx
+Error in line 633: Statement is not in a procedure.
+release oCristalReport 
+Error in line 634: Statement is not in a procedure.
+Los otros formatos en que podemos guardar los reportes son:
+Error in line 635: Unrecognized command verb.
+Extensión FormatType
+Error in line 636: Unrecognized command verb.
+RTF 4
+Error in line 637: Unrecognized command verb.
+EXCEL 7 27 o 28
+Error in line 638: Unrecognized command verb.
+EXCEL 8 29 o 30 
+Error in line 639: Unrecognized command verb.
+Para ver en vista previa un reporte: 
+Error in line 641: Syntax error.
+oCristalreport = createobject("crystal.crpe.application")
+Error in line 642: Statement is not in a procedure.
+oRep = oCristalreport.OpenReport("C: eporteventas.RPT")
+Error in line 643: Statement is not in a procedure.
+oRep.Preview 
+Error in line 644: Statement is not in a procedure.
+Para mandarlo a imprimir 
+Error in line 646: Syntax error.
+oCristalreport = createobject("crystal.crpe.application")
+Error in line 647: Statement is not in a procedure.
+oRep = oCristalreport.OpenReport("C: eporteventas.RPT")
+Error in line 648: Statement is not in a procedure.
+oRep.Printout(.F.) 
+Error in line 649: Statement is not in a procedure.
+Wait Window centrado en la pantalla
+Error in line 651: Command contains unrecognized phrase/keyword.
+Por defecto el mensaje mostrado por Wait Window se muestra en la parte superior derecha de la pantalla, con este truco se muestra centrado en la pantalla.
+Error in line 652: Unrecognized command verb.
+cMensage = "Este es un ejemplo del mensaje"
+Error in line 653: Statement is not in a procedure.
+_Screen.Scalemode = 0
+Error in line 654: Statement is not in a procedure.
+Wait Window cMensage At Int(_Screen.Height/2), Int(_Screen.Width/2 - Len(cMensage) / 2) 
+Error in line 655: Statement is not in a procedure.
+Cambiar propiedades de los reportes desde código
+Error in line 657: Unrecognized command verb.
+Podemos manipular las propiedades de un formulario desde código.
+Error in line 658: Unrecognized command verb.
+Como sabemos un reporte no es más que una tabla donde se almacenan los objetos y las propiedades de estos que luego son invocados por el Dataenvironment.
+Error in line 659: Unrecognized command verb.
+Bueno para cambiar las propiedades de los reportes desde código debemos abrir el reporte como una tabla:
+Error in line 660: Unrecognized command verb.
+USE nombrereporte.frx 
+Error in line 661: Statement is not in a procedure.
+REPLACE fontface with "Verdana", fontsize WITH 10, fontstyle WITH 1 FOR objtype = 1
+Error in line 662: Statement is not in a procedure.
+Con esto ponemos como predeterminado la fuente Verdana a 10 puntos y negrilla, si en fontstyle ponemos 0 tendremos letra normal. 
+Error in line 664: Unrecognized command verb.
+Quitar botones de la barra del Preview
+Error in line 666: Unrecognized command verb.
+Truco indispensable si deseas quitar algunos botones de la barra del preview e impedir así que se imprima desde ahí o se seleccione alguna opción.
+Error in line 667: Unrecognized command verb.
+Bueno para realizar este truco te recomiendo cierres todo. Ahora ve al menú VER, luego a ToolBars (Barra de herramientas), luego selecciona la barra Print Preview (VISTA PRELIMINAR) y ahora haz click en Customize (PERSONALIZAR). Ahora la barra te aparecerá deshabilitada detrás de ventana de personalización, ve a la barra y con click sostenido quita todos los botones que quieras y listo la configuración se guardara en Foxuser.dbf 
+Error in line 668: Unrecognized command verb.
+Si deseas que el usuario final no pueda acceder a los botones debes distribuir el archivo Foxuser.dbf con tu proyecto. 
+Error in line 669: Unrecognized command verb.
+Solucionar problemas de Memoria con WinXP
+Error in line 671: Unrecognized command verb.
+Evitar el error de Memoria en XP al ejecutar comandos de D.O.S
+Error in line 672: Unrecognized command verb.
+Edita el archivo SYSTEM.INI, en la sección 386ENH agrega la siguiente linea:
+Error in line 673: Unrecognized command verb.
+PerVMFiles = 80 
+Error in line 675: Statement is not in a procedure.
+Impedir que cambien el tamaño de las Columnas de un Grid
+Error in line 677: Unrecognized command verb.
+Si quiere que nadie cambie el tamaño de las columnas de un grid, puede utilizar esta forma.
+Error in line 678: Unrecognized command verb.
+THISFORM.Grid1.SetAll("Resizable", .F., "Column")
+Error in line 679: Statement is not in a procedure.
+Determinar el Serial del Disco con WSH
+Error in line 681: Unrecognized command verb.
+Otro de los temas de bastante consulta es como obtener el Serial de un Disco, esta forma es súper sencilla y con poco código.
+Error in line 682: Unrecognized command verb.
+oFS=CreateObject("scripting.filesystemobject")
+Error in line 683: Statement is not in a procedure.
+? oFS.Drives("c").SerialNumber 
+Error in line 684: Statement is not in a procedure.
+Invocar cuadros de dialogo de Windows
+Error in line 686: Unrecognized command verb.
+Existe una forma sencilla de invocar cuadros de dialogo de Windows, tales como: Guardar, Abrir, Fuentes, Color, Impresoras, Ayuda.
+Error in line 687: Unrecognized command verb.
+loComDialog = newobject( "mscomdlg.commondialog" )
+Error in line 688: Statement is not in a procedure.
+locomdialog.ShowFont 
+Error in line 690: Statement is not in a procedure.
+locomdialog.ShowPrinter() 
+Error in line 692: Statement is not in a procedure.
+locomdialog.ShowColor() 
+Error in line 694: Statement is not in a procedure.
+locomdialog.ShowSave() 
+Error in line 696: Statement is not in a procedure.
+loComDialog.ShowOpen 
+Error in line 697: Statement is not in a procedure.
+Suprimir cuadro de diálogo "Imprimiendo" con el API
+Error in line 699: Unrecognized command verb.
+Cuando mandamos reportes a la Impresora algunas veces queremos personalizar esta operación; pero siempre nos muestras la ventanita "Imprimiendo". Esta es la forma de omitir esa ventana
+Error in line 700: Unrecognized command verb.
+DECLARE INTEGER GetDesktopWindow IN WIN32API
+Error in line 701: Statement is not in a procedure.
+DECLARE INTEGER LockWindowUpdate IN WIN32API INTEGER lnHandle
+Error in line 702: Statement is not in a procedure.
+hWin = GetDeskTopWindow()
+Error in line 704: Statement is not in a procedure.
+LockWindowUpdate(hWin) 
+Error in line 706: Statement is not in a procedure.
+REPORT FORM NombreReporte.frx TO PRINTER
+Error in line 707: Statement is not in a procedure.
+LockWindowUpdate(0) 
+Error in line 708: Statement is not in a procedure.
+Unidad y serial lógico de las unidades de disco
+Error in line 710: Unrecognized command verb.
+De una unidad de disco es posible obtener 2 seriales: el de fabrica y el que le asigna el sistema operativo; en este ejemplo se devuelve el serial del sistema operativo.
+Error in line 711: Unrecognized command verb.
+objWMI = Getobject("winmgmts:\\")
+Error in line 712: Statement is not in a procedure.
+cCadWMI = "Select * from Win32_LogicalDisk"
+Error in line 713: Statement is not in a procedure.
+oSistema = objWMI.ExecQuery(cCadWMI)
+Error in line 714: Statement is not in a procedure.
+For Each Disco In oSistema
+Error in line 716: Statement is not in a procedure.
+? "Unidad: " + Disco.Name + " Serial: " + Disco.VolumeSerialNumber
+Error in line 717: Statement is not in a procedure.
+Next
+Error in line 718: Statement is not in a procedure.
+Numero de serie del disco duro
+Error in line 720: Unrecognized command verb.
+Una de las formas más sencillas de obtener el serial de fabrica de las unidades de disco. 
+Error in line 721: Unrecognized command verb.
+objWMI = Getobject("winmgmts:\\")
+Error in line 722: Statement is not in a procedure.
+cCadWMI = "Select * from Win32_PhysicalMedia"
+Error in line 723: Statement is not in a procedure.
+oSistema = objWMI.ExecQuery(cCadWMI)
+Error in line 724: Statement is not in a procedure.
+For Each Disco In oSistema
+Error in line 726: Statement is not in a procedure.
+? "Serial de fabrica :" + Disco.SerialNumber
+Error in line 727: Statement is not in a procedure.
+Next
+Error in line 728: Statement is not in a procedure.
+Fecha de instalación del sistema operativo
+Error in line 730: Unrecognized command verb.
+Utilizando WMI desde VFP para conocer la fecha de instalación del sistema operativo.
+Error in line 731: Unrecognized command verb.
+objWMI = Getobject("winmgmts:\\")
+Error in line 732: Statement is not in a procedure.
+cCadWMI = "Select * from Win32_OperatingSystem"
+Error in line 733: Statement is not in a procedure.
+objOper = objWMI.ExecQuery(cCadWMI)
+Error in line 734: Statement is not in a procedure.
+For Each oSys In objOper
+Error in line 736: Statement is not in a procedure.
+? oSys.InstallDate
+Error in line 737: Statement is not in a procedure.
+Next
+Error in line 738: Statement is not in a procedure.
+Establecer una impresora por defecto
+Error in line 740: Unrecognized command verb.
+Otra forma de establecer la impresora por defecto de Windows... esta vez utilizando WMI.
+Error in line 741: Unrecognized command verb.
+objWMI = GetObject("winmgmts:\\")
+Error in line 742: Statement is not in a procedure.
+cCadWMI = "Select * from Win32_Printer Where Name = 'Canon S200'"
+Error in line 743: Statement is not in a procedure.
+objImp = objWMI.ExecQuery(cCadWMI)
+Error in line 744: Statement is not in a procedure.
+For Each objPrinter in objImp
+Error in line 746: Statement is not in a procedure.
+objPrinter.SetDefaultPrinter()
+Error in line 747: Statement is not in a procedure.
+Next
+Error in line 748: Statement is not in a procedure.
+Cancelar todos los trabajos en impresión
+Error in line 750: Unrecognized command verb.
+Aquí tienes un ejemplo de como cancelar los trabajos que se esten imprimiendo utilizando WMI.
+Error in line 751: Unrecognized command verb.
+objWMI = GetObject("winmgmts:\\")
+Error in line 752: Statement is not in a procedure.
+cCadWMI = "Select * from Win32_Printer Where Name = 'Canon S200'"
+Error in line 753: Statement is not in a procedure.
+objImp = objWMI.ExecQuery(cCadWMI)
+Error in line 754: Statement is not in a procedure.
+For Each objPrinter in objImp
+Error in line 756: Statement is not in a procedure.
+objPrinter.CancelAllJobs()
+Error in line 757: Statement is not in a procedure.
+Next
+Error in line 758: Statement is not in a procedure.
+Velocidad y tipo de procesador
+Error in line 760: Unrecognized command verb.
+Utilizar WMI desde VFP para obtener la velocidad y tipo de procesador del PC.
+Error in line 761: Unrecognized command verb.
+objWMI = GETOBJECT("winmgmts:\\")
+Error in line 762: Statement is not in a procedure.
+colItems = objWMI.ExecQuery("Select * from Win32_Processor",,48)
+Error in line 763: Statement is not in a procedure.
+For Each objItem In colItems
+Error in line 764: Statement is not in a procedure.
+? objItem.Name 
+Error in line 765: Statement is not in a procedure.
+?objItem.CurrentClockSpeed
+Error in line 766: Statement is not in a procedure.
+NEXT
+Error in line 767: Statement is not in a procedure.
+P./ ¿Hay alguna forma de imprimir las páginas 10 y 11 de un Report especificando sólo 10-11?
+Error in line 769: Unrecognized command verb.
+R./ Usa la clausula PROMPT de la orden REPORT FORM para mostrar el diálogo de impresión. Aquí se puede señalar el rango de páginas para ser impresos
+Error in line 770: Unrecognized command verb.
+P./ De qué forma puedo usar la tecla ESC para salir de un Formulario?
+Error in line 771: Unrecognized command verb.
+R./ La mejor forma es poner la propieda Cancel del botón de comandos a .T.. Esto sería la forma más correcta de trabajar en perfecta consonancia con el diseño de Interfaces de windows. 
+Error in line 772: Unrecognized command verb.
+En el evento Click() de el botón de comandos escribe:
+Error in line 773: Unrecognized command verb.
+Thisform.Release()
+Error in line 774: Statement is not in a procedure.
+También se podría usar el evento KeyPress del formulario con:
+Error in line 775: Unrecognized command verb.
+Grid multiselección
+Error in line 783: Unrecognized command verb.
+Una de las preguntas habilítales es como podemos hacer para poder seleccionar múltiples registros en un grid. 
+Error in line 784: Unrecognized command verb.
+En este caso utilizamos un checkbox para hacer la selección de los registros....
+Error in line 785: Unrecognized command verb.
+Public oForm
+Error in line 786: Statement is not in a procedure.
+oForm = Createobject("FrmGrid")
+Error in line 787: Statement is not in a procedure.
+oForm.AddObject("Grid1","Grid")
+Error in line 788: Statement is not in a procedure.
+With oForm.Grid1
+Error in line 789: Statement is not in a procedure.
+.ColumnCount = 3
+Error in line 790: Statement is not in a procedure.
+.Height = 288
+Error in line 791: Statement is not in a procedure.
+.Width = 320
+Error in line 792: Statement is not in a procedure.
+.Left = 24
+Error in line 793: Statement is not in a procedure.
+.Top = 24
+Error in line 794: Statement is not in a procedure.
+.Column1.Width= 17
+Error in line 795: Statement is not in a procedure.
+.Column1.Header1.Caption= ""
+Error in line 796: Statement is not in a procedure.
+.Column1.AddObject("Check1","CheckBox")
+Error in line 797: Statement is not in a procedure.
+.Column1.Check1.Visible = .T.
+Error in line 798: Statement is not in a procedure.
+.Column1.CurrentControl= "Check1"
+Error in line 799: Statement is not in a procedure.
+.Column1.Sparse= .F.
+Error in line 800: Statement is not in a procedure.
+.Column2.Width= 50
+Error in line 801: Statement is not in a procedure.
+.Column2.Header1.Caption= "Código"
+Error in line 802: Statement is not in a procedure.
+.Column3.Width= 194
+Error in line 803: Statement is not in a procedure.
+.Column3.Header1.Caption= "Nombre"
+Error in line 804: Statement is not in a procedure.
+.SetAll("DynamicBackColor","IIF(Ok, RGB(0,220,210), RGB(255,255,255))", "COLUMN")
+Error in line 805: Statement is not in a procedure.
+.Visible = .T.
+Error in line 806: Statement is not in a procedure.
+Endwith
+Error in line 807: Statement is not in a procedure.
+oForm.Visible = .T.
+Error in line 808: Statement is not in a procedure.
+Si bien con la tecla [Esc] sales del browse, debes de tener cuidado, debido a que dicha tecla cancela la opcion que puedas estar ejecutando. 
+Error in line 829: Unrecognized command verb.
+te recomiendo por cuestion didactica que utilices mejor los siguiente ritina: 
+Error in line 830: Unrecognized command verb.
+On Key Label Enter Keyboard "Ctrl+W" 
+Error in line 832: Statement is not in a procedure.
+Browse 
+Error in line 834: Statement is not in a procedure.
+On Key Label Enter 
+Error in line 835: Statement is not in a procedure.
+Nota: 
+Error in line 836: Unrecognized command verb.
+es importante que luego de la rutina de tu browse retornes la tecla enter a su estado natural
+Error in line 837: Unrecognized command verb.
+Para poder salir del browse usando la tecla ENTER, puedes utilizar el siguiente código: 
+Error in line 839: Syntax error.
+SET ESCAPE OFF 
+Error in line 843: Statement is not in a procedure.
+USE 
+Error in line 845: Statement is not in a procedure.
+ON KEY LABEL ENTER KEYBOARD "{ESC}" 
+Error in line 847: Statement is not in a procedure.
+BROWSE 
+Error in line 848: Statement is not in a procedure.
+ON KEY LABEL ENTER 
+Error in line 851: Statement is not in a procedure.
+Es muy importante que "desconectes", el ENTER, pues de lo contrario cada vez que presiones enter, FOX "entiende" que has presionado ESCAPE.
+Error in line 854: Unrecognized command verb.
+Mostrar barra de Progreso en un Select SQL
+Error in line 856: Unrecognized command verb.
+A muchos les gustaría mostrar una barra de progreso en sus consultas Select SQL; no es muy bueno hacerlo puesto que al estar activo el Set Talk las consultas tardaría mucho más; pero si aún así quieres utilizarla.... 
+Error in line 857: Unrecognized command verb.
+Para poder ver la barra la tabla debe tener bastantes registros....
+Error in line 858: Syntax error.
+Define Window WinSQL From 12,30 To 16,70 SHADOW Color Scheme5 Double Name loWind
+Error in line 860: Syntax error.
+Active Window WinSQL Noshow
+Error in line 861: Unrecognized command verb.
+Set Talk Window WinSQL
+Error in line 862: Statement is not in a procedure.
+Set Talk On
+Error in line 863: Statement is not in a procedure.
+Set Notify On
+Error in line 864: Statement is not in a procedure.
+Select * From Tabla
+Error in line 865: Statement is not in a procedure.
+Release Window WinSQL
+Error in line 866: Statement is not in a procedure.
+Llenar formularios en paginas desde VFP
+Error in line 868: Unrecognized command verb.
+A través de automatización puedes los formularios de captura de datos de las paginas webs ... 
+Error in line 869: Unrecognized command verb.
+En este ejemplo se muestra como logearse en mi sitio web a través de VFP; la sesión como usuario debe estar cerrada para poder probar el ejemplo.
+Error in line 870: Unrecognized command verb.
+oIE = Createobject("InternetExplorer.Application")
+Error in line 871: Statement is not in a procedure.
+oIE.Navigate("http://www.davphantom.net")
+Error in line 872: Statement is not in a procedure.
+Do While(oIE.Busy)
+Error in line 873: Statement is not in a procedure.
+DoEvents
+Error in line 874: Statement is not in a procedure.
+EndDo
+Error in line 875: Statement is not in a procedure.
+oIE.Visible = .T.
+Error in line 876: Statement is not in a procedure.
+oDoc = oIE.Document
+Error in line 877: Statement is not in a procedure.
+oForm = oDoc.forms[0]
+Error in line 878: Statement is not in a procedure.
+oForm.item[0].value = "USUARIO"
+Error in line 879: Statement is not in a procedure.
+oForm.item[1].value= "CLAVE"
+Error in line 880: Statement is not in a procedure.
+oForm.submit()
+Error in line 881: Statement is not in a procedure.
+Quitar el menú de VFP
+Error in line 883: Unrecognized command verb.
+Si quieres quitar el menú de VFP puedes hacerlo de la siguiente forma ... 
+Error in line 884: Unrecognized command verb.
+SET SYSMENU TO
+Error in line 885: Statement is not in a procedure.
+Cerrar el Botón inicio de Windows
+Error in line 887: Unrecognized command verb.
+En ocasiones no queremos que el usuario tenga acceso al botón inicio de Windows; lo que hacemos entonces es cerrarlo. 
+Error in line 888: Unrecognized command verb.
+Declare Long FindWindow In "user32"  String lpClassName, String lpWindowName
+Error in line 890: Statement is not in a procedure.
+Declare Long SendMessage In "user32"  Long HWnd,Long wMsg, Long wParam, Long Lparam
+Error in line 893: Statement is not in a procedure.
+Declare Long FindWindowEx In "user32"  Long hWnd1, Long hWnd2, String lpsz1, String lpsz2
+Error in line 896: Statement is not in a procedure.
+SendMessage(FindWindowEx(FindWindow("Shell_TrayWnd",""), 0x0, "Button", .Null.), 0x10, 0, 0)
+Error in line 899: Statement is not in a procedure.
+Abrir un documento de Word e impedir que lo editen
+Error in line 901: Unrecognized command verb.
+En este ejemplo se abre un documento de Word a través de automatización y se impide que el usuario pueda realizar cambios sobre él. Gracias a Gorka. 
+Error in line 902: Unrecognized command verb.
+Local loWord As Object
+Error in line 903: Statement is not in a procedure.
+loWord = Createobject("word.application")
+Error in line 904: Statement is not in a procedure.
+loWord.Documents.Open(Getfile(),,1)
+Error in line 905: Statement is not in a procedure.
+loWord.ActiveDocument.Protect(1)
+Error in line 906: Statement is not in a procedure.
+loWord.ActiveDocument.PrintPreview
+Error in line 907: Statement is not in a procedure.
+loWord.Visible= .T.
+Error in line 908: Statement is not in a procedure.
+loWord.ActiveDocument.Close(.F.)
+Error in line 909: Statement is not in a procedure.
+loWord.Quit
+Error in line 910: Statement is not in a procedure.
+Release loWord
+Error in line 911: Statement is not in a procedure.
+Generar grafica en Excel a través de automatización
+Error in line 913: Unrecognized command verb.
+Muy bueno y sencillo ejemplo de como generar gráficos de áreas en Excel a través de automatización. 
+Error in line 914: Unrecognized command verb.
+oExcel = Createobject("Excel.Application")
+Error in line 915: Statement is not in a procedure.
+oExcel.Workbooks.Add
+Error in line 916: Statement is not in a procedure.
+For i=1 To 3
+Error in line 917: Statement is not in a procedure.
+For x=1 To 13
+Error in line 918: Statement is not in a procedure.
+oExcel.Cells(i,x).Value = Ceil(Rand()*1000)
+Error in line 919: Statement is not in a procedure.
+Next
+Error in line 920: Statement is not in a procedure.
+Next
+Error in line 921: Statement is not in a procedure.
+oExcel.Range("A1:M1;A2:M2;A3:M3").Select
+Error in line 923: Statement is not in a procedure.
+oGraph = oExcel.Charts.Add()
+Error in line 924: Statement is not in a procedure.
+With oGraph
+Error in line 926: Statement is not in a procedure.
+.Type = -4101
+Error in line 927: Statement is not in a procedure.
+.Legend.Clear
+Error in line 928: Statement is not in a procedure.
+.Perspective=100
+Error in line 929: Statement is not in a procedure.
+.Elevation=0
+Error in line 930: Statement is not in a procedure.
+EndWith
+Error in line 931: Statement is not in a procedure.
+oExcel.Visible = .T.
+Error in line 933: Statement is not in a procedure.
+Buscar registros duplicados en una tabla
+Error in line 935: Unrecognized command verb.
+Truco básico pero bastante útil. 
+Error in line 936: Unrecognized command verb.
+En este caso determinados los registros duplicados por un campo especifico
+Error in line 937: Unrecognized command verb.
+Select Campo From Tabla Group By Campo Having Count(Campo)> 1
+Error in line 938: Statement is not in a procedure.
+En este caso determinados los registros duplicados por todo el registro
+Error in line 940: Unrecognized command verb.
+Select Campo1 + Campo2 + Campo3 + Campo4 As X From Tabla Group By X Having Count(Campo1+Campo2+Campo3+Campo4) > 1
+Error in line 943: Statement is not in a procedure.
+Mostrar un reporte dentro de un formulario
+Error in line 945: Unrecognized command verb.
+Excelente truco con el cual podrás mostrar tu reporte en un formulario. 
+Error in line 946: Unrecognized command verb.
+oRep =Createobject("Form")
+Error in line 947: Statement is not in a procedure.
+With oRep
+Error in line 948: Statement is not in a procedure.
+.Caption= "Titulo del Reporte"
+Error in line 949: Statement is not in a procedure.
+.WindowState= 2
+Error in line 950: Statement is not in a procedure.
+.Show()
+Error in line 951: Statement is not in a procedure.
+Endwith
+Error in line 952: Statement is not in a procedure.
+Report Form MiReporte.frx Preview Window (oRep.Name)
+Error in line 953: Statement is not in a procedure.
+PCs conectados a la Red
+Error in line 955: Unrecognized command verb.
+Últimamente se a convertido en una pregunta frecuente ... Puedes conocer los nombres de los equipos e impresoras compartidas. 
+Error in line 956: Unrecognized command verb.
+Esto te devolverá los nombres de todos los equipos que se encuentran en la RED con el nombre que le pases..
+Error in line 957: Unrecognized command verb.
+ANetResources(APcs, "NOMBRE-RED",1)
+Error in line 960: Statement is not in a procedure.
+For i = 1 to Alen(APcs)
+Error in line 962: Statement is not in a procedure.
+? APcs(i)
+Error in line 963: Statement is not in a procedure.
+Next
+Error in line 964: Statement is not in a procedure.
+Justificar textos en reportes
+Error in line 967: Unrecognized command verb.
+Truquito muy bueno que permite poder justificar textos en los reportes utilizando el control RTF. 
+Error in line 968: Unrecognized command verb.
+Para probar el ejemplo crea un reporte llamado rtfdemo.frx y agrégale un control RTF, le colocas como control source ctext.gText y le marcas la opción que dice
+Error in line 969: Syntax error.
+"Campo general de una tabla"
+Error in line 970: Unrecognized command verb.
+Local cStr
+Error in line 971: Statement is not in a procedure.
+cStr="Note that there is a limit of 32 characters "+ "total for the sum of text before and text "+ "after for simple numbering. Multilevel numbering "+ "has a limit of 64 characters total for the sum "+ "of all levels.NOTE: The file must have a"+ ".RTF extension to work properly."+ "Note that there is a limit of 32 characters "+ "total for the sum of text before and text "+ "after for simple numbering. Multilevel numbering "+ "has a limit of 64 characters total for the sum "+ "of all levels.NOTE: The file must have a"+ ".RTF extension to work properly."
+Error in line 983: Statement is not in a procedure.
+Create Cursor ctext (lctext m,gText g)
+Error in line 985: Statement is not in a procedure.
+Insert Into ctext (lctext) Values (cStr)
+Error in line 986: Statement is not in a procedure.
+_rtfFile = "c:"+Sys(3)+".rtf"
+Error in line 988: Statement is not in a procedure.
+Scan
+Error in line 990: Statement is not in a procedure.
+Set Textmerge To &_rtfFile Noshow
+Error in line 991: Statement is not in a procedure.
+Set Textmerge On
+Error in line 992: Statement is not in a procedure.
+ \{ tf1ansiqj <>}
+Error in line 993: Statement is not in a procedure.
+Set Textmerge To
+Error in line 994: Statement is not in a procedure.
+Append General gText From &_rtfFile Class "RICHTEXT.RICHTEXTCTRL.1"
+Error in line 995: Statement is not in a procedure.
+EndScan
+Error in line 996: Statement is not in a procedure.
+Report Form rtfdemo.frx Preview Noconsole
+Error in line 998: Statement is not in a procedure.
+Rellenar con ceros a la izquierda
+Error in line 1001: Unrecognized command verb.
+Otra forma de rellenar con ceros a la izquierda una cadena. En el ejemplo quiero rellenar con ceros el número 80...
+Error in line 1002: Unrecognized command verb.
+? TRANSFORM(80,"@L 99999999")
+Error in line 1003: Statement is not in a procedure.
+El resultado sería 00000080
+Error in line 1004: Unrecognized command verb.
+Determinar el número de líneas de un EditBox
+Error in line 1006: Unrecognized command verb.
+MUY BUENO ... Con este truco podrás determinar le número de líneas que ocupa una determinada cadena de texto en un EditBox. 
+Error in line 1007: Unrecognized command verb.
+nActSetMemo = Set("MemoWidth")
+Error in line 1008: Statement is not in a procedure.
+With Thisform.Edit1 
+Error in line 1010: Statement is not in a procedure.
+Set Memowidth To Floor(.Width/(Fontmetric(6,.FontName,.FontSize)+1))
+Error in line 1011: Statement is not in a procedure.
+nLines = Memlines(.Value)
+Error in line 1012: Statement is not in a procedure.
+EndWith
+Error in line 1013: Statement is not in a procedure.
+? "Número de líneas... " + Transform(nLines)
+Error in line 1015: Statement is not in a procedure.
+Set Memowidth To nActSetMemo
+Error in line 1016: Statement is not in a procedure.
+Messagebox por encima de todas las ventanas de Windows
+Error in line 1018: Unrecognized command verb.
+Generalmente los Messagebox solo se muestran dentro del _Screen de VFP pero existe un valor no documentado que hace que el Messagebox se muestre encima de todas las ventanas de Windows. 
+Error in line 1019: Unrecognized command verb.
+nEstilo = 4 + 32 + 4096 
+Error in line 1020: Statement is not in a procedure.
+MESSAGEBOX("ESTE ES UN MESSAGEBOX", nEstilo , "DIEFERNTE" )
+Error in line 1021: Statement is not in a procedure.
+Código ESC para cortar el papel en impresoras Epson
+Error in line 1023: Unrecognized command verb.
+Este truco te explica cual es la secuencia escape que debes enviar a la impresora Epson (TMU) para que corte el papel.
+Error in line 1024: Unrecognized command verb.
+Set Console Off 
+Error in line 1025: Statement is not in a procedure.
+Set Device To Printer 
+Error in line 1026: Statement is not in a procedure.
+Set Printer To Name NombreDeImpresora 
+Error in line 1027: Statement is not in a procedure.
+Set Print On
+Error in line 1028: Statement is not in a procedure.
+??? Chr(27)+"m"
+Error in line 1029: Statement is not in a procedure.
+Set Print Off 
+Error in line 1030: Statement is not in a procedure.
+Set Device To Screen 
+Error in line 1031: Statement is not in a procedure.
+Set Printer To 
+Error in line 1032: Statement is not in a procedure.
+Set Console On
+Error in line 1033: Statement is not in a procedure.
+Dejar fija primera columna de un grid
+Error in line 1035: Unrecognized command verb.
+Este es un truco bastante solicitado .... Con VFP 8 o superior ya es posible hacerlo más fácilmente. Aquí tienes 2 formas de hacerlo.
+Error in line 1036: Unrecognized command verb.
+En el AfteRowColchange del Grid digita lo siguiente:
+Error in line 1037: Unrecognized command verb.
+Lparameters nColIndex
+Error in line 1038: Statement is not in a procedure.
+Thisform. LockScreen = .T. 
+Error in line 1039: Statement is not in a procedure.
+This.Columns(1).ColumnOrder =This. LeftColumn 
+Error in line 1040: Statement is not in a procedure.
+Thisform.LockScreen = .T.
+Error in line 1041: Statement is not in a procedure.
+Lparameters nDirection
+Error in line 1043: Statement is not in a procedure.
+Thisform. LockScreen= .T. 
+Error in line 1044: Statement is not in a procedure.
+If nDirection > 3 
+Error in line 1045: Statement is not in a procedure.
+This .Columns(1). ColumnOrder = This.LeftColumn 
+Error in line 1046: Statement is not in a procedure.
+Endif 
+Error in line 1047: Statement is not in a procedure.
+Thisform.LockScreen= .F.
+Error in line 1048: Statement is not in a procedure.
+OTRA FORMA
+Error in line 1049: Unrecognized command verb.
+nPos =This. ActiveColumn-This.RelativeColumn
+Error in line 1051: Statement is not in a procedure.
+If nPos>0 
+Error in line 1052: Statement is not in a procedure.
+This.COlumn1.ColumnOrder=nPos+1 
+Error in line 1053: Statement is not in a procedure.
+Else 
+Error in line 1054: Statement is not in a procedure.
+This.COlumn1.ColumnOrder=1 
+Error in line 1055: Statement is not in a procedure.
+Endif
+Error in line 1056: Statement is not in a procedure.
+Imprimir un archivo PDF
+Error in line 1058: Unrecognized command verb.
+En muchas ocasiones se necesita imprimir un archivo PDF (Acrobat Reader) y pensamos diferentes formas de hacerlo.... esta es una de las más sencillas.
+Error in line 1059: Unrecognized command verb.
+Para eso utilizamos la función ShellExecute del API de Windows.
+Error in line 1060: Syntax error.
+Declare Integer ShellExecute In shell32. Dll long HWnd,String cOperation,  string cFile, String t cParam,  string cDir, Integer nShow
+Error in line 1064: Statement is not in a procedure.
+cRutaPDF = "C:Rutaarchivo.pdf"
+Error in line 1065: Statement is not in a procedure.
+ShellExecute(0, "print", cRutaPDF,"", Fullpath(""),0)
+Error in line 1066: Statement is not in a procedure.
+Nombre del dominio en que se logeo el PC
+Error in line 1068: Unrecognized command verb.
+p align="justify">Un pequeño truco para cuando quieras determinar en que dominio se logeo un determinado PC.
+Error in line 1069: Unrecognized command verb.
+? GetEnv("USERDOMAIN")
+Error in line 1070: Statement is not in a procedure.
+Conectarse a una base de datos de SQL Server
+Error in line 1072: Unrecognized command verb.
+Esta es otra de las preguntas frecuentes .... aquí tienes varios ejemplos de como hacerlo.
+Error in line 1073: Unrecognized command verb.
+cCadConnDSN = "driver = SQL Server;server=tu_server;uid=sa;pwd=sa_pw"
+Error in line 1075: Statement is not in a procedure.
+O 
+Error in line 1077: Unrecognized command verb.
+cCadConnDSN = "driver = {SQL Server};server=tu_server;uid=sa;pwd=sa_pw"
+Error in line 1079: Statement is not in a procedure.
+O 
+Error in line 1081: Unrecognized command verb.
+cCadConnDSN = "DRIVER = {SQL Server};"  + "SERVER=tu_server;"  + "UID=nombre_usuario;"  + "PWD=clave_pw;"  + "DATABASE=PUBS;"  + "WSID=nombre_usuario;"  + "APP=__"
+Error in line 1089: Statement is not in a procedure.
+nHanConn = Sqlstringconnect(m.cCadConnDSN)
+Error in line 1091: Statement is not in a procedure.
+If nHanConn > 0
+Error in line 1093: Statement is not in a procedure.
+=MessageBox("Conectado a la base de datos de SQl Server")
+Error in line 1094: Statement is not in a procedure.
+Else
+Error in line 1095: Statement is not in a procedure.
+=MessageBox("Error al conectarse a la base de datos de SQl Server")
+Error in line 1096: Statement is not in a procedure.
+EndIf 
+Error in line 1097: Statement is not in a procedure.
+Agregar imagen al Screen centrada
+Error in line 1099: Unrecognized command verb.
+Este es un antiguo truco que te permite agregar una imagen al screen de VFP centrada. Viejo pero bueno.
+Error in line 1100: Unrecognized command verb.
+@ 2.000,2.000 Say "c:imagen.jpg" Bitmap STYLE "T" Center 
+Error in line 1101: Statement is not in a procedure.
+Devolver el nombre físico del formulario actual
+Error in line 1103: Unrecognized command verb.
+En muchas ocasiones se necesario conocer el nombre del formulario que se esta ejecutando. La función Sys(1271) hace exactamente esto. 
+Error in line 1104: Unrecognized command verb.
+Crea un formulario y un botón y coloca este código en el evento click del botón.
+Error in line 1105: Syntax error.
+cForm = SYS(1271,Thisform)
+Error in line 1106: Statement is not in a procedure.
+Wait window cForm
+Error in line 1107: Statement is not in a procedure.
+Imprimir el contenido de un RTF
+Error in line 1109: Unrecognized command verb.
+El RTF es un control ActiveX que permite dar características al texto al estilo de Word. En el ejemplo se muestra como imprimir el contenido de este ActiveX.
+Error in line 1110: Unrecognized command verb.
+Para imprimir el contenido debes utilizar el método SelPrint del control RTF ...
+Error in line 1111: Syntax error.
+With Thisform.Rtf
+Error in line 1112: Statement is not in a procedure.
+.selstart=1
+Error in line 1113: Statement is not in a procedure.
+.sellength=len(.textrtf)
+Error in line 1114: Statement is not in a procedure.
+.selprint 
+Error in line 1115: Statement is not in a procedure.
+Exportar a HTML de forma sencilla
+Error in line 1117: Unrecognized command verb.
+Esta es una de las formas más sencillas de exportar una tabla a HTML ... En este ejemplo se recorre numero de campos que tenga la tabla y luego el total de registros...
+Error in line 1118: Unrecognized command verb.
+Scan
+Error in line 1119: Statement is not in a procedure.
+For lnField = 1 To Afields(laFields)
+Error in line 1121: Statement is not in a procedure.
+ \<>
+Error in line 1122: Statement is not in a procedure.
+Endfor
+Error in line 1123: Statement is not in a procedure.
+Endscan
+Error in line 1125: Statement is not in a procedure.
+Set Textmerge Off
+Error in line 1129: Statement is not in a procedure.
+Set Textmerge To
+Error in line 1130: Statement is not in a procedure.
+Strtofile(lcHTML,"c:TablaExportada.htm") 
+Error in line 1131: Statement is not in a procedure.
+Determinar la Dirección IP del Equipo
+Error in line 1133: Unrecognized command verb.
+Una forma de conocer la dirección IP del equipo es invocando una función API, pero comentare otra forma de hacerlo y es pasándole el parámetro al programa RUN del DOS, el único inconveniente es que se mostrara la ventana del DOS, pero eso también tiene solución y será explicada en la sección de APIS
+Error in line 1134: Unrecognized command verb.
+Local F, X, Y, U, K
+Error in line 1135: Statement is not in a procedure.
+F = Sys(2023) + "" + SubStr(Sys(2015),1,8) + ".txt" 
+Error in line 1137: Statement is not in a procedure.
+X = SubStr(sys(0),1, At(" ", Sys(0))-1) 
+Error in line 1138: Statement is not in a procedure.
+Run PING &X > &F
+Error in line 1139: Statement is not in a procedure.
+Y = FileToStr(F)
+Error in line 1140: Statement is not in a procedure.
+Delete File &F
+Error in line 1141: Statement is not in a procedure.
+U = At("[", Y) + 1 
+Error in line 1142: Statement is not in a procedure.
+K = At("]", Y)
+Error in line 1143: Statement is not in a procedure.
+? SubStr(Y,U,K-U)
+Error in line 1144: Statement is not in a procedure.
+Lo primero que realiza este código es definir algunas variables, luego obtiene el directorio de archivo temporales y genera un archivo único. A continuación se obtiene información sobre la unidad de red y estas valores se le pasan como parámetro al programa PING. 
+Error in line 1145: Unrecognized command verb.
+Crystal Report y VFP
+Error in line 1147: Unrecognized command verb.
+Uno de los grandes problemas de VFP son los reportes; pero podemos realizar los reportes en Cristal Report y luego llamarlos desde VFP. No quiero decir con esto que sea mejor, más fácil o más cómodo; simplemente es otra forma de hacerlo y tiene muchas ventajas.
+Error in line 1148: Unrecognized command verb.
+En los ejemplos que demuestro estoy utilizando la versión 8 del Cristal Report de Seagate pero considero que se debe comportar igual con las demás versiones.
+Error in line 1149: Unrecognized command verb.
+Primero veamos como puedo exportar un reporte a extensión .DOC (Word)
+Error in line 1150: Unrecognized command verb.
+oCristalReport = createobject("crystal.crpe.application")
+Error in line 1151: Statement is not in a procedure.
+oRepx = oCristalReport.OpenReport("C: eporteventas.RPT")
+Error in line 1152: Statement is not in a procedure.
+oRepx.ExportOptions.FormatType = 14 
+Error in line 1153: Statement is not in a procedure.
+oRepx.ExportOptions.DiskFileName = "c: eporteventasdelmes.doc"
+Error in line 1154: Statement is not in a procedure.
+oRepx.ExportOptions.DestinationType = 1 
+Error in line 1155: Statement is not in a procedure.
+oRepx.Export(.F.) 
+Error in line 1156: Statement is not in a procedure.
+release oRepx
+Error in line 1157: Statement is not in a procedure.
+release oCristalReport 
+Error in line 1158: Statement is not in a procedure.
+Los otros formatos en que podemos guardar los reportes son:
+Error in line 1159: Unrecognized command verb.
+Extensión FormatType
+Error in line 1160: Unrecognized command verb.
+RTF 4
+Error in line 1161: Unrecognized command verb.
+EXCEL 7 27 o 28
+Error in line 1162: Unrecognized command verb.
+EXCEL 8 29 o 30 
+Error in line 1163: Unrecognized command verb.
+Para ver en vista previa un reporte: 
+Error in line 1165: Syntax error.
+oCristalreport = createobject("crystal.crpe.application")
+Error in line 1166: Statement is not in a procedure.
+oRep = oCristalreport.OpenReport("C: eporteventas.RPT")
+Error in line 1167: Statement is not in a procedure.
+oRep.Preview 
+Error in line 1168: Statement is not in a procedure.
+Para mandarlo a imprimir 
+Error in line 1170: Syntax error.
+oCristalreport = createobject("crystal.crpe.application")
+Error in line 1171: Statement is not in a procedure.
+oRep = oCristalreport.OpenReport("C: eporteventas.RPT")
+Error in line 1172: Statement is not in a procedure.
+oRep.Printout(.F.) 
+Error in line 1173: Statement is not in a procedure.
+Quitar acentos de una cadenas de caracteres 
+Error in line 1175: Unrecognized command verb.
+Algunas veces los acentos son algo molestos y nos causan inconvenientes, sobre todo al momento de realizar búsquedas dentro tablas
+Error in line 1176: Unrecognized command verb.
+lCadena = "El amor es el perdón más fácil"
+Error in line 1177: Statement is not in a procedure.
+? CHRTRAN(lCadena, "áéíóúáéíóú", "aeiouAEIOU") 
+Error in line 1178: Statement is not in a procedure.
+Agregar ceros ( 0 ) a la izquierda de un número
+Error in line 1180: Unrecognized command verb.
+Si deseas agregar 0 a un número a la izquierda de este, puedes hacer esto. Se utiliza mucho en la generación de Factura.
+Error in line 1181: Unrecognized command verb.
+LnVar = 350 
+Error in line 1182: Statement is not in a procedure.
+?PADL(lnVar,5,_0_) 
+Error in line 1184: Statement is not in a procedure.
+Resultado 
+Error in line 1188: Unrecognized command verb.
+00350 
+Error in line 1189: Statement is not in a procedure.
+Invocar cuadros de dialogo de Windows
+Error in line 1191: Unrecognized command verb.
+Existe una forma sencilla de invocar cuadros de dialogo de Windows, tales como: Guardar, Abrir, Fuentes, Color, Impresoras, Ayuda.
+Error in line 1192: Unrecognized command verb.
+loComDialog = newobject( "mscomdlg.commondialog" )
+Error in line 1193: Statement is not in a procedure.
+locomdialog.ShowFont 
+Error in line 1195: Statement is not in a procedure.
+locomdialog.ShowPrinter() 
+Error in line 1197: Statement is not in a procedure.
+locomdialog.ShowColor() 
+Error in line 1199: Statement is not in a procedure.
+locomdialog.ShowSave() 
+Error in line 1201: Statement is not in a procedure.
+loComDialog.ShowOpen 
+Error in line 1202: Statement is not in a procedure.
+diferencia entre horas 
+Error in line 1204: Unrecognized command verb.
+FUNTION DifHoras 
+Error in line 1205: Unrecognized command verb.
+Lparameters ttIni,ttFin 
+Error in line 1206: Statement is not in a procedure.
+Local ln, lnDia, lnHor, lnMin, lnSeg 
+Error in line 1207: Statement is not in a procedure.
+If Empty(ttFin) 
+Error in line 1208: Statement is not in a procedure.
+ttFin = Datetime() 
+Error in line 1209: Statement is not in a procedure.
+Endif 
+Error in line 1210: Statement is not in a procedure.
+ln = ttFin - ttIni 
+Error in line 1211: Statement is not in a procedure.
+lnSeg = Mod(ln,60) 
+Error in line 1212: Statement is not in a procedure.
+ln = Int(ln/60) 
+Error in line 1213: Statement is not in a procedure.
+lnMin = Mod(ln,60) 
+Error in line 1214: Statement is not in a procedure.
+ln = Int(ln/60) 
+Error in line 1215: Statement is not in a procedure.
+lnHor = Mod(ln,24) 
+Error in line 1216: Statement is not in a procedure.
+lnDia = Int(ln/24) 
+Error in line 1217: Statement is not in a procedure.
+Return  Transform(lnHor, "@L 99")+ ":"+  Transform(lnMin, "@L 99")
+Error in line 1220: Statement is not in a procedure.
+Hola Amigos: 
+Error in line 1221: Unrecognized command verb.
+Les escribo porque tengo el siguiente problema y quizás Conozcan la solución 
+Error in line 1223: Unrecognized command verb.
+Tengo una aplicación compilada con Vfp8 hice un instalador y anda muy bien en todas las redes en donde la he instalado 
+Error in line 1225: Unrecognized command verb.
+salvo en una condición 
+Error in line 1226: Unrecognized command verb.
+Cuando el cliente es un Win XP con SP2 me da el siguiente error 
+Error in line 1228: Unrecognized command verb.
+R:\AdmCons\AdmCons.exe 
+Error in line 1230: Unrecognized command verb.
+No se pudo iniciar la aplicación porque su configuración es incorrecta. Reinstalar la aplicación puede solucionar el problema. 
+Error in line 1231: Unrecognized command verb.
+Por supuesto que ya la reinstale 1000 veces de 80 maneras distintas 
+Error in line 1234: Unrecognized command verb.
+Me pasa con cualquier servidor Win Me Win XP etc pero siempre cuando el cliente es un XP con SP2 
+Error in line 1236: Unrecognized command verb.
+Si el cliente es otra cosa o Win XP sin SP2 anda fenómeno 
+Error in line 1238: Unrecognized command verb.
+Tengo todas las Dll registradas esta todo perfecto 
+Error in line 1240: Unrecognized command verb.
+En la misma situación he hecho para probar EXE compilado con VFP6 y anda sin problema 
+Error in line 1242: Unrecognized command verb.
+También he descubierto que ejecutando Do R:\Admcons\Admcons.exe desde la ventana de comando de VFP8 anda perfectamente
+Error in line 1244: Unrecognized command verb.
+En la empresa tenemos la aplicación compilada en Vfp8 y funcionando en varios equipos con XP SP2 y funciona sin problemas.... 
+Error in line 1245: Unrecognized command verb.
+Solo que como son muchos los puestos que conectan al servidor, en vez de instalar los Runtime de Vfox a cada puesto los colocamos en el Directorio Raiz de la aplicación, de esta forma no tuvimos que registrarlos en cada equipo. 
+Error in line 1246: Unrecognized command verb.
+Los ficheros que copiamos en el directorio de la aplicación son: 
+Error in line 1248: Unrecognized command verb.
+gdiplus.dll 
+Error in line 1250: Statement is not in a procedure.
+msvcr70.dll 
+Error in line 1251: Statement is not in a procedure.
+vfp8r.dll 
+Error in line 1252: Statement is not in a procedure.
+vfp8resn.dll 
+Error in line 1253: Statement is not in a procedure.
+vfp8t.dll
+Error in line 1254: Statement is not in a procedure.
+Re: RESALTAR UNA CELDA DE UN GRID ....
+Error in line 1255: Unrecognized command verb.
+Por sotero (#866) a las 20:40 del 14-02-2006 
+Error in line 1256: Unrecognized command verb.
+LPARAMETERS tcGrid , tcTabla
+Error in line 1262: Statement is not in a procedure.
+Thisform.HitRow = RECNO(tcTabla)
+Error in line 1264: Statement is not in a procedure.
+ThisForm.LockScreen = .T.
+Error in line 1266: Statement is not in a procedure.
+cDynamic = 'IIF(RECNO() = Thisform.HitRow , RGB(255,255,0), RGB(255,255,255))'
+Error in line 1267: Statement is not in a procedure.
+&tcGrid..SetAll('DynamicBackColor', cDynamic, 'Column')
+Error in line 1268: Statement is not in a procedure.
+&tcGrid..Refresh
+Error in line 1269: Statement is not in a procedure.
+ThisForm.LockScreen = .F.
+Error in line 1270: Statement is not in a procedure.
+Si estás en VFP 9 esto lo puedes suprimir y poner en el GRID la propiedad 
+Error in line 1272: Unrecognized command verb.
+HighlightStyle a 2 (Enable highlighting for current row and persist when grid is
+Error in line 1273: Unrecognized command verb.
+not the current active control.)
+Error in line 1274: Unrecognized command verb.
+Re: Problema con la "Ñ"
+Error in line 1276: Unrecognized command verb.
+Por Ramón Rodríguez (#5229) a las 04:50 del 18-01-2006 
+Error in line 1277: Unrecognized command verb.
+El problema es que son códigos de página diferentes entre los archivos dos y Windows, prueba esto 
+Error in line 1279: Unrecognized command verb.
+x="Espero que tengas el más feliz de los cumpleaños" 
+Error in line 1281: Statement is not in a procedure.
+@1,1 say cpconvert(1252, 850,Allt(x)) 
+Error in line 1282: Statement is not in a procedure.
+Re: Problema con la "Ñ"
+Error in line 1283: Unrecognized command verb.
+Por Christian (#4698) a las 15:17 del 19-01-2006 
+Error in line 1284: Unrecognized command verb.
+Hola, Al momento de imprimir, hace un chrtransc de la descripcion, cambiando un caracter por otro 
+Error in line 1286: Unrecognized command verb.
+EJECUTAR OUTLOOK EXPRESS DESDE VFP
+Error in line 1288: Unrecognized command verb.
+DECLARE INTEGER ShellExecute  IN SHELL32.DLL  INTEGER nWinHandle, STRING cOperation, STRING cFileName, STRING cParameters, STRING cDirectory, INTEGER nShowWindow
+Error in line 1297: Statement is not in a procedure.
+ShellExecute(0, "Open", "msimn.exe", "", "C:\Program Files\Outlook Express", 1)
+Error in line 1299: Statement is not in a procedure.
+CAMBIAR RESOLUCION DE LA PANTALLA
+Error in line 1302: Unrecognized command verb.
+Cuando diseñamos nuestra aplicacion tenemos como base una resolucion para nuestra aplicacion, normalmente yo la diseño en 800 x 600, 
+Error in line 1304: Unrecognized command verb.
+para garantizar el buen funcionamiento yo le indico a los usuarios si estan usando la configuración básica aceptable. 
+Error in line 1305: Syntax error.
+Espero les pueda ayudar: 
+Error in line 1306: Unrecognized command verb.
+IF dimensiones()=.T.
+Error in line 1307: Statement is not in a procedure.
+=cambiar_resolucion(800,600)
+Error in line 1308: Statement is not in a procedure.
+ENDIF
+Error in line 1309: Statement is not in a procedure.
+Les explico, si ud hace diseñado una aplicación en una resolución de 800x600 (en este caso); podra advertir a los usuarios que su monitor no esta configurado adecuademente y este por si solo podra sin salir del sistema cambiar la resolución.
+Error in line 1373: Unrecognized command verb.
+INFORMACION DE DRIVES
+Error in line 1375: Unrecognized command verb.
+¿Quieres conocer toda la información de todas las unidades o drives instalados en tu sistema? Bueno pues esta función relizada con WSH lo hace para ti.
+Error in line 1376: Unrecognized command verb.
+CREAR ARCHIVO DE TEXTO CON FILESYSTEMS
+Error in line 1430: Unrecognized command verb.
+BORRAR CARPETA CON FILESYSTEM
+Error in line 1441: Unrecognized command verb.
+ABRIR CUADRO DE DIALOGO CONECTAR A RED O IMPRESORA
+Error in line 1448: Unrecognized command verb.
+Esta función permite abrir el cuadro de diálogo conectar a unidad de red o impresora 
+Error in line 1449: Unrecognized command verb.
+Declare Integer WNetConnectionDialog In Win32Api Integer Handle, Integer ResourceType
+Error in line 1454: Statement is not in a procedure.
+Declare Integer FindWindow In Win32Api Integer Handle, String cTitle
+Error in line 1457: Statement is not in a procedure.
+WNetConnectionDialog(FindWindow(0,_Screen.Caption), 1)
+Error in line 1460: Statement is not in a procedure.
+WNetConnectionDialog(FindWindow(0,_Screen.Caption), 2)
+Error in line 1463: Statement is not in a procedure.
+HACER PARPADEAR UNA VENTANA TIPO MSN
+Error in line 1465: Unrecognized command verb.
+Este Ejemplo permite hacer Parpadear un Form de la misma manera que lo hace el Microsoft Messenger, cuando llega un nuevo mensaje, y no esta activa la ventana en ese momento, y que para cuando se Activa. 
+Error in line 1466: Unrecognized command verb.
+Declare Long FlashWindowEx In "user32" String @CFlashWInfo
+Error in line 1475: Statement is not in a procedure.
+Declare Long FindWindow In User32 String cClass, String cCaption
+Error in line 1476: Statement is not in a procedure.
+Local cFlashInfo
+Error in line 1478: Statement is not in a procedure.
+cFlashInfo =Space(20)
+Error in line 1479: Statement is not in a procedure.
+cFlashInfo = Num2dWord(20)+ Num2dWord(FindWindow(.Null.,'Calculadora'))+ Num2dWord(3+0xC )+ Num2dWord(5)+ Num2dWord(0) 
+Error in line 1485: Statement is not in a procedure.
+FlashWindowEx(@cFlashInfo)
+Error in line 1487: Statement is not in a procedure.
+CONOCER EL TAMAÑO DE UN ARCHIVO
+Error in line 1505: Unrecognized command verb.
+Esta funcion permite saber el tamaño de un archivo en especifico (en bytes), por medio de api. 
+Error in line 1506: Unrecognized command verb.
+?GetInfoF("c:config.sys")
+Error in line 1508: Statement is not in a procedure.
+?? " Bytes"
+Error in line 1509: Statement is not in a procedure.
+HACER CONEXIÓN ODBC DESDE VFP
+Error in line 1524: Unrecognized command verb.
+Aqui esta el código para hacerlo mediante API.
+Error in line 1525: Unrecognized command verb.
+DECLARE Integer SQLConfigDataSource IN odbccp32.dll  
+Error in line 1527: Statement is not in a procedure.
+Integer, Short, String @, String @ 
+Error in line 1528: Unrecognized command verb.
+ODBC_ADD_SYS_DSN = 1
+Error in line 1532: Statement is not in a procedure.
+lc_driver = "Microsoft Visual FoxPro Driver" + CHR(0) 
+Error in line 1536: Statement is not in a procedure.
+lc_dsn = "dsn=Bases Bodega1" + CHR(0) +  
+Error in line 1539: Missing operand.
+"BackgroundFetch=Yes" + CHR(0) +  
+Error in line 1541: Unrecognized command verb.
+"Description=descripcion de la conexion" + CHR(0) + "Exclusive=No" + CHR(0) + 
+Error in line 1543: Unrecognized command verb.
+"SourceDb=
+Error in line 1544: Unrecognized command verb.
+uta.dbc" + CHR(0) +
+Error in line 1547: Syntax error.
+"Sourcetype=DBC" 
+Error in line 1548: Unrecognized command verb.
+IF SQLConfigDataSource(0, ODBC_ADD_SYS_DSN, @lc_driver, @lc_dsn) = 1 
+Error in line 1550: Statement is not in a procedure.
+RETURN .T. 
+Error in line 1552: Statement is not in a procedure.
+ENDIF 
+Error in line 1554: Statement is not in a procedure.
+RETURN .F. 
+Error in line 1556: Statement is not in a procedure.
+HACER PARPADEAR LA BARRA DE TITULO DE NUESTRA APLICACIÓN
+Error in line 1566: Unrecognized command verb.
+Este efecto es muy comun en las aplicaciones hoy en dia tal, como MSN. que cuando nos escriben un mensaje, parpadea el titulo de una ventana en la barra de tareas. 
+Error in line 1568: Unrecognized command verb.
+Desde VFP podemos hacerlo. La función que nos permite hacerlo la declaramos asi: 
+Error in line 1569: Unrecognized command verb.
+Declare FlashWindow IN user32.dll  LONG hwnd, Long bInvert
+Error in line 1572: Statement is not in a procedure.
+Cuando querramos que nuestra aplicacion parpadee ejecutamos lo siguiente: Si queremos que el _screen Parpadee 
+Error in line 1573: Unrecognized command verb.
+FlashWindow(application.hWnd,.t.)
+Error in line 1574: Statement is not in a procedure.
+Si queremos que el form lo haga 
+Error in line 1575: Unrecognized command verb.
+FlashWindow(thisform.HWnd,.t.)
+Error in line 1576: Statement is not in a procedure.
+NOTA: FlashWindow solo hará que la ventana parpadee una sola vez, si queremos que el parpadeo persista, deberemos colocar el código en un Timer, y en el evento Activate del Form, desactivar el Timer, o que el Timer lo ejecute X veces. El segundo parámetro nos permite decirle si queremos que parpadee si esta activada o no. Al pasarle .T. la ventana parpadeara una sola vez, este o no activada, si le pasamos .F. parpadeara solo si la ventana esta inactiva y quedara de otro color el boton en la barra de tareas. Este código esta en VFP 7. Si quieren ejecutarla desde VFP 6 deberan obtener el handle de la ventana a la que le quieran aplicar el efecto. En PortalFox esta la función para hacerlo. Creo que son estas APIs: 
+Error in line 1577: Unrecognized command verb.
+GetWindow
+Error in line 1578: Unrecognized command verb.
+FindWindow
+Error in line 1579: Unrecognized command verb.
+OBTENER DIRECCION IP CON WINSOCK
+Error in line 1581: Unrecognized command verb.
+Una manera de conseguir la dirección IP local con Winsock. 
+Error in line 1582: Unrecognized command verb.
+LOCAL lcret
+Error in line 1609: Statement is not in a procedure.
+IPSocket = CreateObject("MSWinsock.Winsock")
+Error in line 1610: Statement is not in a procedure.
+IF TYPE('IPSocket')='O'
+Error in line 1611: Statement is not in a procedure.
+lcret = IPSocket.LocalIP
+Error in line 1612: Statement is not in a procedure.
+ELSE
+Error in line 1613: Statement is not in a procedure.
+MESSAGEBOX("Winsock no está instalado!")
+Error in line 1614: Statement is not in a procedure.
+lcret = ""
+Error in line 1615: Statement is not in a procedure.
+ENDIF
+Error in line 1616: Statement is not in a procedure.
+RETURN lcret
+Error in line 1617: Statement is not in a procedure.
+CAMBIAR RESOLUCION DE LA PANTALLA
+Error in line 1619: Unrecognized command verb.
+OCULTA BARRA DE TAREAS DE WINDOWS
+Error in line 1668: Unrecognized command verb.
+MOSTRAR BARRA DE TAREAS DE WINDOWS
+Error in line 1695: Unrecognized command verb.
+LOCAL lnHwnd
+Error in line 1703: Statement is not in a procedure.
+lnHwnd = 0
+Error in line 1705: Statement is not in a procedure.
+DECLARE INTEGER FindWindowA IN Win32API STRING lpClassName,STRING lpWindowName
+Error in line 1707: Statement is not in a procedure.
+DECLARE INTEGER SetWindowPos IN Win32API INTEGER hwnd, INTEGER hwndInsertAfter, INTEGER x, INTEGER y, INTEGER cx, INTEGER cy, INTEGER wFlags
+Error in line 1710: Statement is not in a procedure.
+lnHwnd = FindWindowA('Shell_traywnd', '')
+Error in line 1712: Statement is not in a procedure.
+IF lnHwnd <> 0
+Error in line 1714: Statement is not in a procedure.
+SetWindowPos(lnHwnd, 0, 0, 0, 0, 0, 64)
+Error in line 1715: Statement is not in a procedure.
+ENDIF
+Error in line 1716: Statement is not in a procedure.
+ENDFUNC
+Error in line 1717: Nesting error.
+EVITAR QUE UNA APLICACION SE CARGUE DOS VECES
+Error in line 1719: Unrecognized command verb.
+La misma función que hemos visto en el caso anterior puede ser
+Error in line 1720: Unrecognized command verb.
+usada para evitar que un programa externo se cargue mós de una vez.
+Error in line 1721: Unrecognized command verb.
+Un ejemplo sencillo es el de la calculadora de Windows.
+Error in line 1722: Unrecognized command verb.
+Imaginemos que en nuestra aplicación demos la posibilidad de utilizar
+Error in line 1724: Unrecognized command verb.
+la calculadora. Pondríamos una línea come esta:
+Error in line 1725: Unrecognized command verb.
+RUN /N CALC.EXE
+Error in line 1727: Statement is not in a procedure.
+Pero si esta línea la ejecutamos más de una vez, se cargarás la
+Error in line 1729: Unrecognized command verb.
+calcuadora una y otra vez.
+Error in line 1730: Unrecognized command verb.
+IF NOT F_ActivaWin("Calculadora")
+Error in line 1733: Statement is not in a procedure.
+RUN /N CALC.EXE
+Error in line 1735: Statement is not in a procedure.
+ENDIF
+Error in line 1736: Statement is not in a procedure.
+Como saber el nombre del PC y el recurso compartido de una conexión de red. 
+Error in line 1774: Unrecognized command verb.
+Ejemplo de como agregar un menú en un formulario SDI (Interfaz de un solo documento - Single Document Interface). 
+Error in line 1795: Unrecognized command verb.
+Agregar un menú en un formulario SDI
+Error in line 1797: Unrecognized command verb.
+Introducción
+Error in line 1798: Unrecognized command verb.
+Continuando con el tema de formularios SDI (Interfaz de un solo documento - Single Document Interface), esta vez mostraré como agregar un menú en un formulario de nivel superior.
+Error in line 1799: Unrecognized command verb.
+Crear el formulario de nivel superior
+Error in line 1800: Unrecognized command verb.
+Como ya vimos en un artículo anterior, para crear un formulario SDI en Visual FoxPro, debemos crear un Formulario de nivel superior, 
+Error in line 1801: Unrecognized command verb.
+configurando la propiedad ShowWindow = 2 (Como formulario de nivel superior). 
+Error in line 1802: Unrecognized command verb.
+Un formulario de nivel superior aparece como una ventana independiente sobre el escritorio de Windows y se muestra en la barra de tareas de Windows.
+Error in line 1803: Unrecognized command verb.
+Crear el menú
+Error in line 1804: Unrecognized command verb.
+La creación de un menú SDI para agregar en un formulario de nivel superior, es igual que la creación de cualquier otro menú, 
+Error in line 1805: Unrecognized command verb.
+solo debemos marcar la casilla de verificación Formulario de nivel superior en el cuadro de dialogo Opciones generales que se muestra 
+Error in line 1806: Unrecognized command verb.
+al seleccionar la opción Ver -> Opciones generales desde el diseñador de menú, como lo muestra la figura siguiente:
+Error in line 1807: Unrecognized command verb.
+Cuando generamos el menú con esta opción activada, se deberá llamar al menú desde el método Init del formulario de nivel superior con una sentencia como la siguiente
+Error in line 1809: Unrecognized command verb.
+DO MiMenu.mpr WITH THISFORM,.T.
+Error in line 1810: Statement is not in a procedure.
+Editando el archivo MiMenu.mpr podemos ver en las primeras líneas comentadas, una ayuda con las distintas formas de llamar al menú generado.
+Error in line 1811: Unrecognized command verb.
+Código de ejemplo
+Error in line 1812: Unrecognized command verb.
+El siguiente código es un ejemplo para mostrar un formulario de nivel superior con un menú incorporado. Para ejecutarlo con un menú personalizado, se debe habilitar la línea DO MiMenu.mpr WITH Thisform, .T. en el método Init del formulario, y quitar la llamada al procedimiento MiMenuEjemplo.
+Error in line 1813: Unrecognized command verb.
+PUBLIC goMiForm
+Error in line 1814: Statement is not in a procedure.
+goMiForm=CREATEOBJECT("MiForm")
+Error in line 1815: Statement is not in a procedure.
+goMiForm.SHOW(1)
+Error in line 1816: Statement is not in a procedure.
+RETURN
+Error in line 1817: Statement is not in a procedure.
+DEFINE PAD _1mv0kg6re OF (m.cMenuName) PROMPT "\ DEFINE PAD _1mv0kg6rf OF (m.cMenuName) PROMPT "\ DEFINE PAD _1mv0kg6rg OF (m.cMenuName) PROMPT "A\ ON PAD _1mv0kg6re OF (m.cMenuName) ACTIVATE POPUP (a_menupops[1])
+Error in line 1872: Command contains unrecognized phrase/keyword.
+DEFINE BAR 1 OF (a_menupops[1]) PROMPT "\ DEFINE BAR 2 OF (a_menupops[1]) PROMPT "\ DEFINE BAR 3 OF (a_menupops[1]) PROMPT "\-"
+Error in line 1877: Command contains unrecognized phrase/keyword.
+DEFINE BAR 4 OF (a_menupops[1]) PROMPT "\ DEFINE BAR 5 OF (a_menupops[1]) PROMPT "\ DEFINE BAR 6 OF (a_menupops[1]) PROMPT "\ DEFINE BAR 7 OF (a_menupops[1]) PROMPT "\-"
+Error in line 1878: Command contains unrecognized phrase/keyword.
+DEFINE BAR 8 OF (a_menupops[1]) PROMPT "\ ON SELECTION BAR 8 OF (a_menupops[1]) DO _Salir
+Error in line 1879: Command contains unrecognized phrase/keyword.
+DEFINE BAR 1 OF (a_menupops[2]) PROMPT "\ DEFINE BAR 2 OF (a_menupops[2]) PROMPT "\-"
+Error in line 1882: Command contains unrecognized phrase/keyword.
+DEFINE BAR 3 OF (a_menupops[2]) PROMPT "Cor\ DEFINE BAR 4 OF (a_menupops[2]) PROMPT "\ DEFINE BAR 5 OF (a_menupops[2]) PROMPT "\
+Error in line 1883: Command contains unrecognized phrase/keyword.
+DEFINE BAR 1 OF (a_menupops[3]) PROMPT "\ DEFINE BAR 2 OF (a_menupops[3]) PROMPT "\-"
+Error in line 1885: Command contains unrecognized phrase/keyword.
+DEFINE BAR 3 OF (a_menupops[3]) PROMPT "Acerca \
+Error in line 1886: Command contains unrecognized phrase/keyword.
+Al ejecutar el código anterior, veremos el formulario SDI con el menú como lo muestra la siguiente figura:
+Error in line 1898: Unrecognized command verb.
+Comentarios
+Error in line 1900: Unrecognized command verb.
+Recordar que Visual FoxPro trae en la aplicación "Solution" un ejemplo similar donde se muestra un formulario SDI, en el cual se agrega un menú, una barra de herramientas, y se crean ventanas secundarias. Para ver la aplicación "Solution" ejecute:
+Error in line 1901: Unrecognized command verb.
+DO (HOME(2) + "Solution\Solution")
+Error in line 1902: Statement is not in a procedure.
+O directamente corra el ejemplo del formulario SDI ejecutando:
+Error in line 1903: Unrecognized command verb.
+DO FORM (HOME(2) + "\Solution\Forms\SDIForm.scx")
+Error in line 1904: Statement is not in a procedure.
+Buscar texto en un Cuadro de Edicion
+Error in line 1905: Unrecognized command verb.
+Para ver el ejemplo ejecute el siguiente código: 
+Error in line 1906: Syntax error.
+SET SAFETY OFF
+Error in line 1908: Statement is not in a procedure.
+LOCAL lc
+Error in line 1909: Statement is not in a procedure.
+TEXT TO lc NOSHOW
+Error in line 1910: Statement is not in a procedure.
+Este es un texto tomado de un archivo de
+Error in line 1911: Statement is not in a procedure.
+texto, para buscar una palabra y remarcarla
+Error in line 1912: Statement is not in a procedure.
+si la encuentra.
+Error in line 1913: Statement is not in a procedure.
+
+Error in line 1914: Statement is not in a procedure.
+Escriba en el cuadro de texto una palabra
+Error in line 1915: Statement is not in a procedure.
+que se encuentre aquí y haga click en el
+Error in line 1916: Statement is not in a procedure.
+botón Buscar.
+Error in line 1917: Statement is not in a procedure.
+
+Error in line 1918: Statement is not in a procedure.
+Visual FoxPro. Nada corre como un zorro.
+Error in line 1919: Statement is not in a procedure.
+ENDTEXT
+Error in line 1920: Statement is not in a procedure.
+STRTOFILE(lc,"MiTxt.txt")
+Error in line 1921: Statement is not in a procedure.
+PUBLIC goForm
+Error in line 1923: Statement is not in a procedure.
+goForm = CREATEOBJECT("Form1")
+Error in line 1924: Statement is not in a procedure.
+goForm.SHOW
+Error in line 1925: Statement is not in a procedure.
+EVITAR RETORNO DE CARRO EN UN EDITBOX
+Error in line 1965: Unrecognized command verb.
+public oForm
+Error in line 1966: Statement is not in a procedure.
+oForm = CREATEOBJECT("MyForm")
+Error in line 1967: Statement is not in a procedure.
+oForm.Show()
+Error in line 1968: Statement is not in a procedure.
+BUSQUEDA INCREMENTAL EN UN FORMULARIO
+Error in line 1985: Unrecognized command verb.
+Una forma de hacer una busqueda incremental en un formulario, ingresando un texto en un TextBox y visualizando el resultado en un Grid
+Error in line 1986: Unrecognized command verb.
+En este ejemplo de BUSQUEDA INCREMENTAL en un Formulario, debemos poner un TextBox (Text1) y una Grilla (Grid1).
+Error in line 1987: Unrecognized command verb.
+En el Entorno de datos insertaremos la tabla (MiTabla)
+Error in line 1988: Unrecognized command verb.
+En el método InteractiveChange del TextBox debemos escribir el siguiente código:
+Error in line 1989: Unrecognized command verb.
+LOCAL lc, lnRecno
+Error in line 1991: Statement is not in a procedure.
+SELECT MiTabla
+Error in line 1992: Statement is not in a procedure.
+lc = ALLT(THIS.VALUE)
+Error in line 1993: Statement is not in a procedure.
+lnRecno = RECNO()
+Error in line 1994: Statement is not in a procedure.
+IF MiTabla.Nombre >= lc
+Error in line 1995: Statement is not in a procedure.
+IF NOT BOF()
+Error in line 1996: Statement is not in a procedure.
+SKIP -1
+Error in line 1997: Statement is not in a procedure.
+ENDIF
+Error in line 1998: Statement is not in a procedure.
+IF MiTabla.Nombre < lc 
+Error in line 1999: Statement is not in a procedure.
+IF lnRecno <= RECC()
+Error in line 2000: Statement is not in a procedure.
+GO RECNO()
+Error in line 2001: Statement is not in a procedure.
+ELSE
+Error in line 2002: Statement is not in a procedure.
+GO BOTT
+Error in line 2003: Statement is not in a procedure.
+ENDIF
+Error in line 2004: Statement is not in a procedure.
+RETURN
+Error in line 2005: Statement is not in a procedure.
+ENDIF
+Error in line 2006: Statement is not in a procedure.
+IF NOT EMPTY(ORDER()) 
+Error in line 2007: Statement is not in a procedure.
+SEEK lc
+Error in line 2008: Statement is not in a procedure.
+ELSE
+Error in line 2009: Statement is not in a procedure.
+GO TOP
+Error in line 2010: Statement is not in a procedure.
+LOCATE REST FOR MiTabla.Nombre=lc WHILE MiTabla.Nombre <= lc NOOPTIMIZE
+Error in line 2011: Statement is not in a procedure.
+ENDIF
+Error in line 2012: Statement is not in a procedure.
+ELSE
+Error in line 2013: Statement is not in a procedure.
+LOCATE REST FOR MiTabla.Nombre=lc WHILE MiTabla.Nombre <= lc NOOPTIMIZE
+Error in line 2014: Statement is not in a procedure.
+ENDIF
+Error in line 2015: Statement is not in a procedure.
+IF lnRecno # RECNO()
+Error in line 2017: Statement is not in a procedure.
+THISFORM.Grid1.SETFOCUS 
+Error in line 2018: Statement is not in a procedure.
+THISFORM.Text1.SETFOCUS 
+Error in line 2019: Statement is not in a procedure.
+ENDIF
+Error in line 2020: Statement is not in a procedure.
+RETURN
+Error in line 2021: Statement is not in a procedure.
+NOTA: SE DEBE TENER LAS SIGUIENTES CONSIDERACIONES:
+Error in line 2023: Unrecognized command verb.
+La tabla debe estar ordenada ASCENDENTEMENTE o existir un indice por Nombre y estar seleccionado (el método busca si hay un SET ORDER establecido) 
+Error in line 2024: Unrecognized command verb.
+Fijarse bien el nombre del TextBox y del Grid para invocar el método SetFocus (en el ejemplo Grid1 y Text1) 
+Error in line 2025: Unrecognized command verb.
+Fijarse el alias de la tabla del grid (en el ejemplo MiTabla) 
+Error in line 2026: Unrecognized command verb.
+Conviene que los nombres estén en mayúsculas y añadir en la propiedad Format del TextBox = ! para que sean ingresados en mayúsculas 
+Error in line 2027: Unrecognized command verb.
+Conviene que la propiedad del Grid RecordMark = .T. para que se vea el registro marcado, o manejar el color del registro seleccionado 
+Error in line 2028: Unrecognized command verb.
+LIMITAR UN CAMPO MEMO
+Error in line 2030: Unrecognized command verb.
+Como limitar la entrada de un campo memo a X lineas. De Ken Weber. 
+Error in line 2031: Unrecognized command verb.
+Simplemente hay que poner en el keypress lo siguiente: 
+Error in line 2032: Unrecognized command verb.
+LPARAMETERS nKeyCode, nShiftAltCtrl
+Error in line 2033: Statement is not in a procedure.
+IF nkeycode = 13
+Error in line 2034: Statement is not in a procedure.
+IF OCCURS(chr(13),this.value) >=5
+Error in line 2035: Statement is not in a procedure.
+NODEFAULT
+Error in line 2036: Statement is not in a procedure.
+ENDIF
+Error in line 2037: Statement is not in a procedure.
+ENDIF
+Error in line 2038: Statement is not in a procedure.
+En este ejemplo se limita a 6 lineas.
+Error in line 2039: Unrecognized command verb.
+El modelo de objetos de Outlook es muy rico y poderoso. Esta interfaz está disponible como un servidor de automatización, o sea, que todo lo podemos automatizar mediante programación desde Visual FoxPro. 
+Error in line 2041: Unrecognized command verb.
+Enviar y leer correo con Outlook desde Visual FoxPro
+Error in line 2042: Unrecognized command verb.
+El modelo de objetos de Outlook es muy rico y poderoso. Esta interfaz está disponible como un servidor de automatización, o sea, que todo lo podemos automatizar mediante programación desde Visual FoxPro.
+Error in line 2043: Unrecognized command verb.
+Un breve ejemplo
+Error in line 2044: Unrecognized command verb.
+Una de las tareas más fácil de automatizar en Outlook es el envío de un correo. Veremos un ejemplo de solamente unas pocas líneas.
+Error in line 2045: Unrecognized command verb.
+Lo primero que debemos hacer para automatizar Outlook, es crear un objeto Outlook. Una vez creado el objeto, debemos acceder al origen de los datos, pero esto no lo logramos en forma directa, debemos crear un objeto "NameSpace" apropiado que actuará como entrada (en este ejemplo MAPI). El objeto NameSpace proporciona entre otros, los métodos Logon y Logoff.
+Error in line 2046: Unrecognized command verb.
+LOCAL lcPerfil AS CHARACTER, lcContrasenia AS CHARACTER ,  lcDestinatario AS CHARACTER, lcTema AS CHARACTER ,  lcCuerpo AS CHARACTER
+Error in line 2049: Statement is not in a procedure.
+LOCAL loOutlook AS "Outlook.Application",  loNameSpace AS OBJECT, loMailItem AS OBJECT
+Error in line 2051: Statement is not in a procedure.
+lcPerfil = "Prueba"
+Error in line 2055: Statement is not in a procedure.
+lcContrasenia = "prueba"
+Error in line 2056: Statement is not in a procedure.
+lcDestinatario = "prueba@portalfox.com"
+Error in line 2057: Statement is not in a procedure.
+lcTema = "Prueba: " + TTOC(DATETIME())
+Error in line 2058: Statement is not in a procedure.
+lcCuerpo = "Prueba enviando un mail desde Visual FoxPro." + CHR(10)+CHR(13)
+Error in line 2059: Statement is not in a procedure.
+lcCuerpo = lcCuerpo + "Saludos." + CHR(10)+CHR(13)
+Error in line 2060: Statement is not in a procedure.
+loOutlook = CREATEOBJECT("Outlook.Application")
+Error in line 2063: Statement is not in a procedure.
+loNameSpace = loOutlook.GetNameSpace("MAPI")
+Error in line 2064: Statement is not in a procedure.
+loNameSpace.Logon(lcPerfil , lcContrasenia)
+Error in line 2067: Statement is not in a procedure.
+loMailItem = loOutlook.CreateItem(0)
+Error in line 2068: Statement is not in a procedure.
+loMailItem.Recipients.ADD(lcDestinatario)
+Error in line 2069: Statement is not in a procedure.
+loMailItem.Subject = lcTema
+Error in line 2070: Statement is not in a procedure.
+loMailItem.Body = lcCuerpo
+Error in line 2071: Statement is not in a procedure.
+loMailItem.Send
+Error in line 2072: Statement is not in a procedure.
+loNameSpace.Logoff
+Error in line 2073: Statement is not in a procedure.
+loNameSpace = .NULL.
+Error in line 2075: Statement is not in a procedure.
+loOutlook = .NULL.
+Error in line 2076: Statement is not in a procedure.
+Problemas de seguridad
+Error in line 2077: Unrecognized command verb.
+Outlook XP y Outlook 2000 SP2, incluyen los parches de seguridad de Microsoft. Estos parches restringen, entre otras cosas, el acceso a la libreta de direcciones y el envío de correo mediante automatización, con el fin de evitar códigos maliciosos que toman los datos de nuestra libreta de direcciones y envían correo sin nuestro consentimiento.
+Error in line 2078: Unrecognized command verb.
+Cuando intentamos enviar un correo desde Visual FoxPro, se nos presenta el siguiente cuadro de dialogo, que luego de 5 segundos habilita el botón "Si".
+Error in line 2079: Unrecognized command verb.
+Cuando intentamos acceder a la libreta de direcciones aparece el cuadro de dialogo el cual nos permitirá un acceso inmediato, o de 1, 2, 5, ó 10 minutos que debemos seleccionar.
+Error in line 2081: Unrecognized command verb.
+¿Cómo solucionamos este problema?
+Error in line 2083: Unrecognized command verb.
+Estas son algunas de las opciones que disponemos nosotros para trabajar con estos parches de seguridad:
+Error in line 2084: Unrecognized command verb.
+Mantener la versión de Office 2000 SR-1 y no actualizarla ni instalarle parches de seguridad, con los peligros que esto significa. 
+Error in line 2085: Unrecognized command verb.
+Si se tienen Outlook y Exchange instalados, el administrador de Exchange, puede disminuir las alertas o registrar algunas aplicaciones como seguras. 
+Error in line 2086: Unrecognized command verb.
+Outlook Redemption: Es un objeto COM que se adapta fácilmente a la automatización y utiliza la MAPI extendida. Esta DLL fue escrita por Dmitry Streblechenko (MS Outlook MVP) y esta disponible en http://www.dimastr.com/redemption. Este es un producto comercial con un valor de U$S 200 aproximadamente. Existe para descarga una versión libre con fines de desarrollo. 
+Error in line 2087: Unrecognized command verb.
+Express ClickYes: Es un pequeño programa residente que se maneja mediante la API de Windows. Este "presionará" el botón "Si" antes de que el dialogo aparezca. Este programa es gratis y esta disponible en http://www.express-soft.com/mailmate/clickyes.html. En el mismo sitio existe un ejemplo para Visual FoxPro. 
+Error in line 2088: Unrecognized command verb.
+El formulario de ejemplo
+Error in line 2089: Unrecognized command verb.
+En este ejemplo utilizaremos un formulario con un objeto PageFrame con dos Páginas, una para enviar correo y la otra para leer los correos desde la Bandeja de Entrada.
+Error in line 2090: Unrecognized command verb.
+La siguiente figura es la página para el envío de un correo.
+Error in line 2091: Unrecognized command verb.
+Esta otra figura nos muestra la página para la lectura de la bandeja de entrada.
+Error in line 2093: Unrecognized command verb.
+En el método Init() creamos una instancia de la clase cOutlook con la sentencia:
+Error in line 2095: Unrecognized command verb.
+THISFORM.oCorreo = NEWOBJECT('cOutlook','cOutlook.prg')
+Error in line 2096: Statement is not in a procedure.
+Creamos el servidor de automatización con:
+Error in line 2097: Unrecognized command verb.
+THISFORM.oCorreo.CrearServidor()
+Error in line 2098: Statement is not in a procedure.
+El método CrearServidor() establece una referencia a la instancia de Outlook en la propiedad oOutlook. En este método también creamos un objeto NameSpace que nos permitirá acceder a las carpetas especiales de Outlook.
+Error in line 2099: Unrecognized command verb.
+También en el Init() del formulario, llamamos a otro formulario para el inicio de sesión de Outlook:
+Error in line 2100: Unrecognized command verb.
+DO FORM Inicio WITH THISFORM.oCorreo TO llAceptar
+Error in line 2102: Statement is not in a procedure.
+IF NOT (llAceptar AND THISFORM.oCorreo.IniciarSesion())
+Error in line 2103: Statement is not in a procedure.
+MESSAGEBOX('Falló el inicio sesión', 48, 'Inicio de sesión')
+Error in line 2104: Statement is not in a procedure.
+RETURN .F.
+Error in line 2105: Statement is not in a procedure.
+ENDIF
+Error in line 2106: Statement is not in a procedure.
+Enviar un correo
+Error in line 2107: Unrecognized command verb.
+Antes de invocar el método EnviarCorreo(), configuramos todas las propiedades necesarias para el envío de correo. Esto lo hacemos en el método Click() del botón "Enviar".
+Error in line 2108: Unrecognized command verb.
+WITH THISFORM.oCorreo
+Error in line 2110: Statement is not in a procedure.
+.CargarVector(THIS.PARENT.txtTo.VALUE, 'aTO')
+Error in line 2111: Statement is not in a procedure.
+.CargarVector(THIS.PARENT.txtCC.VALUE, 'aCC')
+Error in line 2112: Statement is not in a procedure.
+.CargarVector(THIS.PARENT.txtAdjunto.VALUE, 'aAdjuntos')
+Error in line 2113: Statement is not in a procedure.
+.cTema = ALLTRIM(THIS.PARENT.txtTema.VALUE)
+Error in line 2114: Statement is not in a procedure.
+.cCuerpo = ALLTRIM(THIS.PARENT.edtCuerpo.VALUE)
+Error in line 2115: Statement is not in a procedure.
+IF .EnviarCorreo()
+Error in line 2116: Statement is not in a procedure.
+MESSAGEBOX('Mensaje enviado con éxito.', 64, 'Aviso')
+Error in line 2117: Statement is not in a procedure.
+THISFORM.LimpiarPagina()
+Error in line 2118: Statement is not in a procedure.
+ELSE
+Error in line 2119: Statement is not in a procedure.
+MESSAGEBOX('No se pudo enviar el mensaje.', 48, 'Problemas')
+Error in line 2120: Statement is not in a procedure.
+ENDIF
+Error in line 2121: Statement is not in a procedure.
+ENDWITH
+Error in line 2122: Statement is not in a procedure.
+RETURN
+Error in line 2123: Statement is not in a procedure.
+En el llamado del método EnviarCorreo() de la clase cOutlook es donde se crea un nuevo mensaje y se arma según las propiedades anteriormente configuradas.
+Error in line 2124: Unrecognized command verb.
+Leer los correos
+Error in line 2125: Unrecognized command verb.
+Para leer los correos de la bandeja de entrada invocamos el método LeerMensajes() de la clase cOutlook desde el método Click() del botón "Leer".
+Error in line 2126: Syntax error.
+ZAP IN curMsg
+Error in line 2127: Statement is not in a procedure.
+IF THISFORM.oCorreo.LeerMensajes(THIS.PARENT.opgTipo.VALUE = 1, 'curMsg')
+Error in line 2128: Statement is not in a procedure.
+GO TOP IN curMsg
+Error in line 2129: Statement is not in a procedure.
+THIS.PARENT.grdMensajes.SETFOCUS
+Error in line 2130: Statement is not in a procedure.
+ELSE
+Error in line 2131: Statement is not in a procedure.
+MESSAGEBOX('No existen mensajes para traer', 64, 'Aviso')
+Error in line 2132: Statement is not in a procedure.
+ENDIF
+Error in line 2133: Statement is not in a procedure.
+THIS.PARENT.edtCuerpo.REFRESH
+Error in line 2134: Statement is not in a procedure.
+En la llamada al método LeerMensajes() creamos un objeto loInbox y traemos todos los mensajes, o solo los mensajes "No leídos" y recorremos uno a uno para cargarlos en un cursor que luego mostraremos en una Cuadrícula y un Cuadro de Edición.
+Error in line 2135: Unrecognized command verb.
+Definición de la clase cOutlook
+Error in line 2136: Unrecognized command verb.
+En este ejemplo disponemos de una clase definida por el usuario, llamada cOutlook con los distintos métodos para realizar el envío y la lectura de los correos. La definición de esta clase es la siguiente:
+Error in line 2137: Unrecognized command verb.
+A la definición de la clase, como así también los formularios, y el ejemplo los podemos descargar del siguiente vínculo: outlook.zip para su evaluación. Los ejemplos están realizados con Visual FoxPro 8 y Outlook 2002 (Outlook XP).
+Error in line 2331: Unrecognized command verb.
+Una forma fácil de crear un formulario por código como un explorador de internet. 
+Error in line 2332: Unrecognized command verb.
+PUBLIC oForm
+Error in line 2333: Statement is not in a procedure.
+oForm = NEWOBJECT("MiExplorador")
+Error in line 2334: Statement is not in a procedure.
+oForm.SHOW
+Error in line 2335: Statement is not in a procedure.
+MOSTRAR UNA PAGINA WEB DESDE TU PROGRAMA DE VFP
+Error in line 2364: Unrecognized command verb.
+Una mas sobre las Fox Foundation Classes, en esta ocasión, cómo mostrar una pagina Web en un formulario de Visual FoxPro.
+Error in line 2365: Unrecognized command verb.
+Pueden revisar las Fox Foundation Classes (FFCs) para saber cómo funciona: Utilities -> Component Gallery -> Internet -> Web Broser Control Un ejemplo sencillo sobre esto: 
+Error in line 2366: Unrecognized command verb.
+loBrowser=NEWOBJECT("_webform",HOME()+"gallery\_webview") 
+Error in line 2367: Statement is not in a procedure.
+loBrowser.olewebBROWSER.Navigate2("http://www.portalfox.com") 
+Error in line 2368: Statement is not in a procedure.
+loBrowser.Show(1)
+Error in line 2369: Statement is not in a procedure.
+NUMERACION DE PAGINAS EN INFORMES CON CAMPOS MEMO
+Error in line 2371: Unrecognized command verb.
+En la función de Rafael Angel Ponce Yllanes se tiene el detalle de los campos Memo, lo único que modifique es el NOCONSOLE por el NOWAIT, ... 
+Error in line 2372: Unrecognized command verb.
+...con este cambio aun cuando haya campos memos y estos excedan su longitud (la pagina actual), me sale la numeración correctamente. El único detalle es el parpadeo cuando se lanza el report por primera vez, pero prefiero esto a una numeración incorrecta. 
+Error in line 2373: Syntax error.
+IMPLEMENTAR UN VISOR DE TEXTO
+Error in line 2400: Unrecognized command verb.
+Si deseas mostrar un buen visor de textos que puedes implementar en tus aplicaciones, te damos la manera mas sencilla y con apariencia bastante profesional...
+Error in line 2401: Unrecognized command verb.
+Una vez más utilizaremos una clase de las que vienen en las Fox Foundation Classes (FFCs) de Visual FoxPro, en esta ocasión haremos una SubClase basada en _ShowText de la librería de clases _Reports.vcx, para de ésta manera hacerlo mas beneficioso a nuestro propósito. 
+Error in line 2402: Unrecognized command verb.
+oForm=CREATEOBJECT("MyTextEditor",GETFILE(),"Editando Archivo",2)
+Error in line 2403: Statement is not in a procedure.
+oForm.SHow(1)
+Error in line 2404: Statement is not in a procedure.
+LPARAMETERS tcSourceFile, tcCaption,; Título de la Venta 
+Error in line 2408: Syntax error.
+tnWindowState 
+Error in line 2409: Unrecognized command verb.
+Como idea adicional, podrías utilizar tu propio método para generar un reporte o mandar tu reporte a ASCII (REPORT FORM < TuReporte > TO FILE ASCII ) , pasarlo a archivo y mostrarlo.... 
+Error in line 2426: Unrecognized command verb.
+lcFile = SYS(2015)+".txt"
+Error in line 2427: Statement is not in a procedure.
+OPEN DATABASE HOME(2)+"data\testdata.dbc"
+Error in line 2428: Statement is not in a procedure.
+SET TEXTMERGE ON
+Error in line 2429: Statement is not in a procedure.
+SET TEXTMERGE TO (lcFile) NOSHOW
+Error in line 2430: Statement is not in a procedure.
+lcTitle="Reporte de Clientes"
+Error in line 2431: Statement is not in a procedure.
+IF !USED("Customer")
+Error in line 2432: Statement is not in a procedure.
+USE Customer IN 0
+Error in line 2433: Statement is not in a procedure.
+ENDIF 
+Error in line 2434: Statement is not in a procedure.
+SELECT Customer
+Error in line 2435: Statement is not in a procedure.
+\< < PADC(lcTitle,80," ") > >
+Error in line 2436: Statement is not in a procedure.
+\Clave < < PADC("Compañia",40," ") > > Contacto
+Error in line 2438: Statement is not in a procedure.
+SCAN
+Error in line 2439: Statement is not in a procedure.
+ \< < Cust_id > > < < Company > > < < Contact > > 
+Error in line 2440: Statement is not in a procedure.
+ENDSCAN
+Error in line 2441: Statement is not in a procedure.
+SET TEXTMERGE TO
+Error in line 2442: Statement is not in a procedure.
+SET TEXTMERGE OFF
+Error in line 2443: Statement is not in a procedure.
+oForm=CREATEOBJECT("MyTextEditor",lcFile,lcTitle,2)
+Error in line 2444: Statement is not in a procedure.
+oForm.Show(1)
+Error in line 2445: Statement is not in a procedure.
+DELETE FILE (lcFile)
+Error in line 2446: Statement is not in a procedure.
+CLOSE TABLES all
+Error in line 2447: Statement is not in a procedure.
+CLOSE DATABASES all
+Error in line 2448: Statement is not in a procedure.
+Nota: Por cuestiones de codificacion HTML tuve que poner espacios entre los mayor-que, menor-que < < > > de la sección TEXTMERGE, quitelos para que funcione correctamente. Nota2: Revise el archivo _reports.h que se localiza en el mismo directorio de la librería de clases, con él se pueden configurar mas opciones de la clase.
+Error in line 2449: Unrecognized command verb.
+PREVIEW EN FORMA MAXIMIZADA Y CON DIALOGO DE IMPRESIÓN
+Error in line 2451: Unrecognized command verb.
+Preview en forma maximizada y con diálogo de impresión, mucho más fácil y en una sola línea... 
+Error in line 2452: Unrecognized command verb.
+Esta línea de código me pareció muy buena, lo único que solo funciona de la versión 6.0 en adelante... 
+Error in line 2453: Unrecognized command verb.
+KEYBOARD '{CTRL+F10}' PLAIN CLEAR
+Error in line 2454: Statement is not in a procedure.
+REPORT FORM tureporte NOCO TO PRINTER PROMPT PREV
+Error in line 2455: Statement is not in a procedure.
+INFORME CON VISTA PREVIA MAXIMIZADA
+Error in line 2457: Unrecognized command verb.
+Solo hay que hacer ... 
+Error in line 2458: Unrecognized command verb.
+Esto antes de lanzar el REPORT PREVIEW KEYBOARD "{CTRL+F10}"
+Error in line 2459: Unrecognized command verb.
+Conocer el número de paginas totales de un informe
+Error in line 2461: Unrecognized command verb.
+PARAMETERS lc_report
+Error in line 2487: Statement is not in a procedure.
+LOCAL nPaginas
+Error in line 2488: Statement is not in a procedure.
+nPaginas = 0
+Error in line 2489: Statement is not in a procedure.
+DEFINE WINDOW x FROM 1,1 TO 2,2
+Error in line 2491: Statement is not in a procedure.
+ACTIVATE WINDOW x NOSHOW
+Error in line 2492: Statement is not in a procedure.
+REPORT FORM (lc_report) NOCONSOLE
+Error in line 2493: Statement is not in a procedure.
+nPaginas = _PAGENO
+Error in line 2494: Statement is not in a procedure.
+RELEASE WINDOW x
+Error in line 2495: Statement is not in a procedure.
+RETURN npaginas
+Error in line 2496: Statement is not in a procedure.
+NOTA: gracias a Jose Luis Santana Blasco y a Rafael Angel Ponce Yllanes
+Error in line 2498: Unrecognized command verb.
+por la aclaración del NOCONSOLE, con esto se mejora mucho la velocidad.
+Error in line 2499: Unrecognized command verb.
+Nota: Se ha reportado que con Campos MEMO, si se utiliza la propiedad STRETCH WITH OVERFLOW suelen ocurrir resultados inesperados
+Error in line 2501: Unrecognized command verb.
+Obtener la dirección IP local de la maquina.
+Error in line 2503: Unrecognized command verb.
+loSock = CREATEOBJECT('MSWinsock.Winsock.1')
+Error in line 2504: Statement is not in a procedure.
+? loSock.LocalIP
+Error in line 2505: Statement is not in a procedure.
+loSock = .NULL.
+Error in line 2506: Statement is not in a procedure.
+COMPRIMIR ARCHIVOS CON WINRAR
+Error in line 2508: Unrecognized command verb.
+Has deseado tener un programa en donde este archivado todas las rutas de carpetas a comprimir y con especificaciones de tipos de archivos y una ruta de almacenamiento, y solo dar un click para iniciar el proceso de respaldo. 
+Error in line 2509: Unrecognized command verb.
+USE Respaldo
+Error in line 2512: Statement is not in a procedure.
+wAlmacena=RESPALDO.ALMACENA
+Error in line 2513: Statement is not in a procedure.
+USE DIRECTORIO
+Error in line 2515: Statement is not in a procedure.
+REPLACE ALL NOMBRE WITH +RIGHT(SYS(2015),8)+'_'+RIGHT(DTOS(DATE()),6)
+Error in line 2518: Statement is not in a procedure.
+GO TOP
+Error in line 2519: Statement is not in a procedure.
+SCAN ALL
+Error in line 2521: Statement is not in a procedure.
+ZRUTA=ALLTRIM(RUTA)+'\'+ALLTRIM(EXTENSION)
+Error in line 2522: Statement is not in a procedure.
+ZSAV=ALLTRIM(wAlmacena)+'\'+ALLTRIM(NOMBRE)+'.RAR'+' '+ZRUTA
+Error in line 2523: Statement is not in a procedure.
+! /N7 RAR a -r -s &ZSAV
+Error in line 2524: Statement is not in a procedure.
+ENDSCAN
+Error in line 2525: Statement is not in a procedure.
+REDONDEAR A 5 CENTAVOS POR ARRIBA
+Error in line 2528: Unrecognized command verb.
+Esta función es muy útil para establecimientos donde las monedas de centavos ya no se usan tan frecuentemente y/o por comodidad se cobra 5 centavos arriba, es decir: $145.02 se convierte en $145.05, $145.07 se convierte en $145.10. 
+Error in line 2529: Unrecognized command verb.
+INSERTAR REGISTRO EN UNA POSICION
+Error in line 2535: Unrecognized command verb.
+Cuantas veces no hemos querido ingresar un registro en blanco en alguna posicion especifica de una tabla ? 
+Error in line 2536: Unrecognized command verb.
+Esta es una manera muy simple de hacerlo: 
+Error in line 2537: Unrecognized command verb.
+GO 3
+Error in line 2538: Statement is not in a procedure.
+INSERT BLANK BEFORE
+Error in line 2539: Statement is not in a procedure.
+Te aconsejo no intentar este tipo de manejos sobre tablas medianas o grandes, ya que es muy lento y además necesitas abrir la tabla en forma exclusiva. 
+Error in line 2540: Unrecognized command verb.
+Publicado por jgpg07  en 4/30/2007 08:06:00 PM 
+Error in line 2541: Unrecognized command verb.
+3 comentarios: 
+Error in line 2542: Syntax error.
+Anónimo dijo... 
+Error in line 2543: Unrecognized command verb.
+Muy interesante los trucos. Como hago cuando window no refresca un formulario, y al mover el formulario muestra el escritorio quedando como tildado el formulario, pero no lo esta??
+Error in line 2545: Unrecognized command verb.
+Franco 
+Error in line 2547: Unrecognized command verb.
+31 de julio de 2008 07:59 
+Error in line 2548: Syntax error.
+Manuel Vic dijo... 
+Error in line 2549: Unrecognized command verb.
+interesantes tus anotaciones. A ver si te ha pasado algo como esto, en mi sistema genero notas de ventas, todo funciona bien hasta que se usa impresoras Oki o Star (miniprinter),Si imprimen pero todo invertido, es decir los datos del cliente aparecen hasta abajo y el detalle de la nota arriba, tienes alguna solucion??. 
+Error in line 2551: Unrecognized command verb.
+Manuel 
+Error in line 2553: Unrecognized command verb.
+23 de febrero de 2011 15:12 
+Error in line 2554: Syntax error.
+Jaime Matheus dijo... 
+Error in line 2555: Unrecognized command verb.
+Muy interesantes procedimientos y todo en un solo sitio, espero que lo sigan actualizando, los que alcance a probar realmente funcionan
+Error in line 2557: Unrecognized command verb.
+Jaime Matheus, Bogota Col. 
+Error in line 2559: Unrecognized command verb.
+24 de agosto de 2011 11:48 
+Error in line 2560: Syntax error.
+Publicar un comentario 
+Error in line 2562: Unrecognized command verb.
+Entrada antigua 
+Error in line 2563: Unrecognized command verb.
+Página Principal 
+Error in line 2564: Unrecognized command verb.
+Suscribirse a: Comentarios de la entrada (Atom) 
+Error in line 2565: Unrecognized command verb.
+Barra de video			
+Error in line 2566: Unrecognized command verb.
+con la tecnología de	
+Error in line 2567: Unrecognized command verb.
+Suscribirse a
+Error in line 2570: Unrecognized command verb.
+Entradas 
+Error in line 2571: Unrecognized command verb.
+Comentarios 
+Error in line 2572: Unrecognized command verb.
+Jaime Peña - Desarrollo de Software a la medida de su Empresa
+Error in line 2573: Unrecognized command verb.
+@rrobaypunto
+Error in line 2574: Missing comma (,).
+http://jgpg07.googlepages.com
+Error in line 2575: Unrecognized command verb.
+http://www.jgpg07.tk
+Error in line 2576: Unrecognized command verb.
+Acerca de mí
+Error in line 2577: Unrecognized command verb.
+jgpg07 
+Error in line 2578: Unrecognized command verb.
+Ver mi perfil completo 
+Error in line 2579: Unrecognized command verb.
+Buscar este blog	
+Error in line 2580: Unrecognized command verb.
+con la tecnología de	
+Error in line 2581: Unrecognized command verb.
+Apple  Google  Microsoft
+Error in line 2583: Unrecognized command verb.
+Apple será vecina de Facebook
+Error in line 2584: Unrecognized command verb.
+ITespresso.es
+Error in line 2585: Statement is not in a procedure.
+Tras la apuesta por la nube realizada por Apple con iCloud, la necesidad de tener nuevos centros de datos es cada vez más intensa. De hecho, la compañía estaría considerando comprar un terreno de más de 60 hectáreas en Prineville, en el estado de ...
+Error in line 2586: Unrecognized command verb.
+Artículos relacionados »
+Error in line 2587: Unrecognized command verb.
+Apple pierde un juicio contra Samsung por sus móviles Galaxy
+Error in line 2588: Unrecognized command verb.
+MeriStation
+Error in line 2589: Unrecognized command verb.
+Samsung Electronics, la mayor fabricante de teléfonos móviles, ha visto como sus acciones han aumentado en el mercado coreano tras ganar un litigio contra Apple. Un juzgado americano desestimó la petición de Apple de prohibir las ventas de los ...
+Error in line 2590: Unrecognized command verb.
+Artículos relacionados »
+Error in line 2591: Unrecognized command verb.
+Apple abre una tienda en la emblemática Estación Central de Nueva York
+Error in line 2592: Unrecognized command verb.
+Lanacion.com (Argentina)
+Error in line 2593: Statement is not in a procedure.
+La tienda de Apple frente al imponente hall de la Estación Central de Nueva York. Foto: Gentileza messagingrobot / Flickr Destacados por su diseño, Apple planea romper el molde de los anteriores puntos de venta con la apertura de su tienda en un ...
+Error in line 2594: Unrecognized command verb.
+Artículos relacionados »
+Error in line 2595: Unrecognized command verb.
+McAfee: “Apple iOS es más seguro que Android”
+Error in line 2596: Unrecognized command verb.
+ITespresso.es
+Error in line 2597: Statement is not in a procedure.
+En la lucha contra el malware Apple iOS supera a Android como entorno más seguro, lo que no quiere decir que los dispositivos móviles que lo integran estén libres de riesgo. Un informe publicado por la empresa de seguridad McAffe, propiedad de Intel ...
+Error in line 2598: Unrecognized command verb.
+Artículos relacionados »con la tecnología de	
+Error in line 2599: Unrecognized command verb.
+Seguidores
+Error in line 2602: Unrecognized command verb.

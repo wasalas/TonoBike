@@ -1,0 +1,11 @@
+  _TA_OT    TALLER : Ordenes de Trabajo
+  _TBL_PRODUTABLAS : Productos  
+  _TBL_PRODUTABLAS : Tipos de Productos  
+  _TBL_PRODUTABLAS : Familia de Productos  
+  _TBL_PRODUTABLAS : Clientes
+  _TBL_PRODUTABLAS : Distritos
+  _UT_PARAM UTILITARIOS : Parámetros del Sistema
+  _UT_MAN   UTILITARIOS : Mantenimiento de Archivos
+  _UT_ALERTAUTILITARIOS : Control de Alertas
+  _UT_ACC   UTILITARIOS : Control de Accesos
+  _UT_USU   UTILITARIOS : Registro de Usuarios

@@ -1,0 +1,222 @@
+
+ESTRUCTURA DE ARCHIVOS AL 21/08/2023
+---------- -- -------- -- ----------
+
+	ACCESOS.DBF
+	-----------
+ TAG1 => codusu   
+ TAG2 => codusu+varmenu   
+
+CODUSU 			C 	2 	0
+VARMENU 		C 	10 	0
+ESTMENU 		L 	1 	0
+
+	ACCESOSX.DBF
+	------------
+
+CODUSU 			C 	2 	0
+CODMENU 		C 	2 	0
+VARMENU 		C 	10 	0
+ESTMENU 		L 	1 	0
+
+	ARO_BICI.DBF
+	------------
+ TAG1 => id_arobici   
+
+ID_AROBICI 		C 	2 	0
+DESCRIP 		C 	50 	0
+
+	BICICLETAS.DBF
+	--------------
+ TAG1 => id_bici   
+ TAG2 => id_cli   
+
+ID_BICI 		C 	5 	0
+ID_CLI 			C 	5 	0
+ID_TIPBICI 		C 	2 	0
+ID_AROBICI 		C 	2 	0
+ID_MARBICI 		C 	2 	0
+MODELO 			C 	50 	0
+COLOR 			C 	50 	0
+NROSERIE 		C 	50 	0
+OBS 			C 	100 	0
+ACTIVO 			L 	1 	0
+
+	CLIENTES.DBF
+	------------
+ TAG1 => id_cli   
+
+ID_CLI 			C 	5 	0
+ID_TIPDOC 		C 	1 	0
+NUMDOC 			C 	11 	0
+NOMCLI 			C 	100 	0
+TELF 			C 	50 	0
+DIRECCION 		C 	100 	0
+ID_DIS 			C 	3 	0
+ACTIVO 			L 	1 	0
+
+	DISTRITOS.DBF
+	-------------
+ TAG1 => id_dis   
+
+ID_DIS 			C 	3 	0
+DESCRIP 		C 	50 	0
+
+	ERRORES.DBF
+	-----------
+
+ERROR 			N 	4 	0
+LINENO 			N 	5 	0
+PROGRAMA 		C 	100 	0
+MENSAJE1 		C 	200 	0
+MENSAJE2 		C 	200 	0
+FECHA 			D 	8 	0
+HORA 			C 	8 	0
+USUARIO 		C 	20 	0
+
+	ESTADOS.DBF
+	-----------
+
+IDESTADO 		C 	1 	0
+DESESTADO 		C 	20 	0
+LCOT 			L 	1 	0
+LFAC 			L 	1 	0
+
+	FAMILIAS.DBF
+	------------
+ TAG1 => id_familia   
+
+ID_FAMILIA 		C 	2 	0
+ID_TIPPROD 		C 	2 	0
+DESCRIP 		C 	100 	0
+
+	MARCAS.DBF
+	----------
+ TAG1 => id_marca   
+
+ID_MARCA 		C 	5 	0
+DESCRIP 		C 	100 	0
+
+	MARCA_BICI.DBF
+	--------------
+ TAG1 => id_marbici   
+
+ID_MARBICI 		C 	2 	0
+DESCRIP 		C 	50 	0
+
+	MENUS.DBF
+	---------
+ TAG1 => varmenu   
+
+CODMENU 		C 	2 	0
+VARMENU 		C 	10 	0
+NOMMENU 		C 	70 	0
+
+	MODELOS.DBF
+	-----------
+ TAG1 => id_modelo   
+
+ID_MODELO 		C 	5 	0
+DESCRIP 		C 	100 	0
+
+	MONEDA.DBF
+	----------
+
+ID_MONEDA 		C 	3 	0
+DESCRIP 		C 	20 	0
+SIMBOLO 		C 	10 	0
+
+	MOTIVO.DBF
+	----------
+ TAG1 => idmotivo   
+
+IDMOTIVO 		C 	2 	0
+DESCRIP 		C 	50 	0
+
+	OTCAB.DBF
+	---------
+ TAG1 => id_cab   
+
+ID_CAB 			C 	10 	0
+ID_CLI 			C 	5 	0
+ID_BICI 		C 	5 	0
+FECING 			D 	8 	0
+HORING 			C 	10 	0
+USUING 			C 	2 	0
+FECMOD 			D 	8 	0
+HORMOD 			C 	10 	0
+USUMOD 			C 	2 	0
+FECREC 			D 	8 	0
+HORREC 			C 	10 	0
+FECESTENT 		D 	8 	0
+HORESTENT 		C 	10 	0
+FECENT 			D 	8 	0
+HORENT 			C 	10 	0
+SUBTOTAL 		N 	12 	2
+IGV 			N 	12 	2
+PORIGV 			N 	6 	3
+TOTAL 			N 	12 	2
+ESTADO 			C 	1 	0
+ID_MONEDA 		C 	3 	0
+OBS 			C 	100 	0
+
+	OTDET.DBF
+	---------
+ TAG1 => id_det   
+
+ID_DET 			C 	10 	0
+ID_CAB 			C 	10 	0
+ID_PROD 		C 	10 	0
+PRECIO 			N 	12 	2
+CANTIDAD 		N 	12 	2
+ACTIVO 			L 	1 	0
+
+	PARAMSIS.DBF
+	------------
+
+PORIGV 			N 	6 	2
+
+	PRODUCTOS.DBF
+	-------------
+ TAG1 => id_prod   
+
+ID_PROD 		C 	10 	0
+ID_TIPPROD 		C 	2 	0
+ID_FAMILIA 		C 	2 	0
+ID_MARCA 		C 	5 	0
+ID_MODELO 		C 	5 	0
+DESCRIP 		C 	100 	0
+PRECIO 			N 	12 	2
+ACTIVO 			L 	1 	0
+
+	TIPDOC.DBF
+	----------
+
+ID_TIPDOC 		C 	1 	0
+DESCRIP 		C 	20 	0
+TIPO 			C 	1 	0
+
+	TIPO_BICI.DBF
+	-------------
+ TAG1 => id_tipbici   
+
+ID_TIPBICI 		C 	2 	0
+DESCRIP 		C 	50 	0
+
+	TIPO_PRODUCTO.DBF
+	-----------------
+ TAG1 => id_tipprod   
+
+ID_TIPPROD 		C 	2 	0
+DESCRIP 		C 	100 	0
+
+	USUARIOS.DBF
+	------------
+ TAG1 => codigo   
+ TAG2 => nombre   
+
+CODIGO 			C 	2 	0
+NOMBRE 			C 	50 	0
+PASWORD 		C 	10 	0
+SUPER 			L 	1 	0
+CLAVES 			C 	10 	0

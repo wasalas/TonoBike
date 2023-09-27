@@ -1,0 +1,17 @@
+SET TEXTMERGE ON
+SET TEXTMERGE TO programas\var_off.prg
+IF USED( "menus" )
+	SELECT MENUS
+ELSE
+	SELE 0
+	USE datos\MENUS
+ENDIF
+GO TOP
+DO WHILE !EOF()
+	\ STORE .F. TO <<varmenu>>
+	SKIP
+ENDDO
+\STORE .F. to _ut_sal, _ut_ade, skipvar
+
+SET TEXTMERGE OFF
+SET TEXTMERGE TO

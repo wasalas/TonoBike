@@ -1,0 +1,3 @@
+*MODIFY FORM ..\sistinmu\gesvta\forms\rhisven.scx
+
+MODIFY PROJECT E:\Programacion\Sistemas\vfp90\sistinmu\GESVTA\ReporteHistorico nowait

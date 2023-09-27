@@ -1,0 +1,69 @@
+ACCESOS.DBF
+codusu, varmenu, estmenu, 
+
+ACCESOSX.DBF
+codusu, codmenu, varmenu, estmenu, 
+
+ARO_BICI.DBF
+id_arobici, descrip, 
+
+BICICLETAS.DBF
+id_bici, id_cli, id_tipbici, id_arobici, id_marbici, modelo, color, nroserie, obs, activo, 
+
+CLIENTES.DBF
+id_cli, id_tipdoc, numdoc, nomcli, telf, direccion, id_dis, activo, 
+
+DISTRITOS.DBF
+id_dis, descrip, 
+
+ERRORES.DBF
+error, lineno, programa, mensaje1, mensaje2, fecha, hora, usuario, 
+
+ESTADOS.DBF
+idestado, desestado, lcot, lfac, 
+
+FAMILIAS.DBF
+id_familia, id_tipprod, descrip, 
+
+MARCAS.DBF
+id_marca, descrip, 
+
+MARCA_BICI.DBF
+id_marbici, descrip, 
+
+MENUS.DBF
+codmenu, varmenu, nommenu, 
+
+MODELOS.DBF
+id_modelo, descrip, 
+
+MONEDA.DBF
+id_moneda, descrip, simbolo, 
+
+MOTIVO.DBF
+idmotivo, descrip, 
+
+OTCAB.DBF
+id_cab, id_cli, id_bici, fecing, horing, usuing, fecmod, hormod, usumod, fecrec, horrec, fecestent, horestent, fecent, horent, subtotal, igv, porigv, total, estado, id_moneda, obs, 
+
+OTDET.DBF
+id_det, id_cab, id_prod, precio, cantidad, activo, 
+
+PARAMSIS.DBF
+porigv, 
+
+PRODUCTOS.DBF
+id_prod, id_tipprod, id_familia, id_marca, id_modelo, descrip, precio, activo, 
+
+TIPDOC.DBF
+id_tipdoc, descrip, tipo, 
+
+TIPO_BICI.DBF
+id_tipbici, descrip, 
+
+TIPO_PRODUCTO.DBF
+id_tipprod, descrip, 
+
+USUARIOS.DBF
+codigo, nombre, pasword, super, claves, 
+
